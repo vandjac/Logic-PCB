@@ -1,0 +1,3165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Luke.Jensen\OneDrive - Gentex Corporation\Documents\GitHub\Logic-PCB\Logic-PCB\Logic-PCB.kicad_sch</source>
+    <date>7/11/2023 10:25:19 AM</date>
+    <tool>Eeschema 7.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Logic-PCB.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1u</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4fcb0ed-bda9-41b5-93a8-38fc136cb287</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>.01u</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2281312-68db-4281-bc66-d3c17fa08676</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>.1u</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b56dd74-09bf-411a-a3ab-4e8605733686</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6be9f715-101a-4fe4-ac95-68d2f546db7d</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8df8347-bcd9-4747-b2ab-849c59064b26</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c85a2dc7-5a09-449f-841e-5952651d4781</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3da5eb2-542b-44ad-b8d9-56f401bbc46b</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab7b1331-29b4-4b2c-bad7-69f0b4ed6570</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89b48dd8-9be0-436c-b513-d4284d2c44c3</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>994657a6-ed33-49a7-90b3-dfcfa2bd837b</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9eb548d-5587-4d5a-8829-19f5212787d5</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>278e8be8-8278-4147-9b95-bfeeb1b14fd3</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b99bca03-6635-4766-a5bd-94a6001e7af3</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7537cdc-d764-429f-8f9c-fb35a2ec40cb</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98c68344-960c-4315-a947-7ae4404d3953</tstamps>
+    </comp>
+    <comp ref="DS1">
+      <value>PSA08-11GWA</value>
+      <footprint>PSA0811GWA</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/PSA08-11GWA.pdf</datasheet>
+      <fields>
+        <field name="Description">LED Displays &amp; Accessories AlphaNum Grn 568nm Common Anode</field>
+        <field name="Height">8.75</field>
+        <field name="Manufacturer_Name">Kingbright</field>
+        <field name="Manufacturer_Part_Number">PSA08-11GWA</field>
+        <field name="Mouser Part Number">604-PSA08-11GWA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Kingbright/PSA08-11GWA?qs=VdjlWU%2FzoOGXetunvhrCIw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="PSA08-11GWA" description="LED Displays &amp; Accessories AlphaNum Grn 568nm Common Anode"/>
+      <property name="Description" value="LED Displays &amp; Accessories AlphaNum Grn 568nm Common Anode"/>
+      <property name="Height" value="8.75"/>
+      <property name="Manufacturer_Name" value="Kingbright"/>
+      <property name="Manufacturer_Part_Number" value="PSA08-11GWA"/>
+      <property name="Mouser Part Number" value="604-PSA08-11GWA"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Kingbright/PSA08-11GWA?qs=VdjlWU%2FzoOGXetunvhrCIw%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="LED Displays &amp; Accessories AlphaNum Grn 568nm Common Anode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60544a24-8eaf-4311-9a7d-62b2108f40c8</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>NLV17SZ74USG</value>
+      <footprint>SOP50P310X90-8N</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NL17SZ74-D.PDF</datasheet>
+      <fields>
+        <field name="Arrow Part Number">NLV17SZ74USG</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/nlv17sz74usg/on-semiconductor?region=nac</field>
+        <field name="Description">ON Semiconductor NLV17SZ74USG, D Type Flip Flop, 1.65  5.5 V, 8-Pin US</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">NLV17SZ74USG</field>
+        <field name="Mouser Part Number">863-NLV17SZ74USG</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/NLV17SZ74USG?qs=3PKVEWFFm29nc6kIWQphEw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="NLV17SZ74USG" description="ON Semiconductor NLV17SZ74USG, D Type Flip Flop, 1.65  5.5 V, 8-Pin US"/>
+      <property name="Description" value="ON Semiconductor NLV17SZ74USG, D Type Flip Flop, 1.65  5.5 V, 8-Pin US"/>
+      <property name="Height" value="0.9"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="NLV17SZ74USG"/>
+      <property name="Mouser Part Number" value="863-NLV17SZ74USG"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/NLV17SZ74USG?qs=3PKVEWFFm29nc6kIWQphEw%3D%3D"/>
+      <property name="Arrow Part Number" value="NLV17SZ74USG"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/nlv17sz74usg/on-semiconductor?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="ON Semiconductor NLV17SZ74USG, D Type Flip Flop, 1.65  5.5 V, 8-Pin US"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45f301e8-fa47-40cb-adfc-be32c644b8f2</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>MC14027BDR2G</value>
+      <footprint>SOIC127P600X175-16N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MC14027B-D.PDF</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MC14027BDR2G</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mc14027bdr2g/on-semiconductor</field>
+        <field name="Description">Flip Flops 3-18V CMOS Dual JK-Type</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MC14027BDR2G</field>
+        <field name="Mouser Part Number">863-MC14027BDR2G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/MC14027BDR2G?qs=g2rIOKKlpobE9BrNZHasrw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MC14027BDR2G" description="Flip Flops 3-18V CMOS Dual JK-Type"/>
+      <property name="Description" value="Flip Flops 3-18V CMOS Dual JK-Type"/>
+      <property name="Height" value="1.75"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="MC14027BDR2G"/>
+      <property name="Mouser Part Number" value="863-MC14027BDR2G"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/MC14027BDR2G?qs=g2rIOKKlpobE9BrNZHasrw%3D%3D"/>
+      <property name="Arrow Part Number" value="MC14027BDR2G"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/mc14027bdr2g/on-semiconductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Flip Flops 3-18V CMOS Dual JK-Type"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af5cd5c6-e72e-47da-8951-aec7b145e474</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>LM555CMX_NOPB</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/LM555</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LM555CMX NOPB</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/lm555cmxnopb/texas-instruments</field>
+        <field name="Description">Standard Timer Single 8-Pin SOIC T/R</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM555CMX NOPB</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LM555CMX_NOPB" description="Standard Timer Single 8-Pin SOIC T/R"/>
+      <property name="Description" value="Standard Timer Single 8-Pin SOIC T/R"/>
+      <property name="Height" value="1.75"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="LM555CMX NOPB"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value="LM555CMX NOPB"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/lm555cmxnopb/texas-instruments"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Standard Timer Single 8-Pin SOIC T/R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7a5c4e8-0e65-4e06-a60f-e0be436bb0c4</tstamps>
+    </comp>
+    <comp ref="IC4">
+      <value>MC14043BDR2G</value>
+      <footprint>SOIC127P600X175-16N</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MC14043B-D.PDF</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MC14043BDR2G</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mc14043bdr2g/on-semiconductor?region=nac</field>
+        <field name="Description">ON SEMICONDUCTOR - MC14043BDR2G - SR-LATCH, QUAD, TRI-STATE, SOIC-16</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MC14043BDR2G</field>
+        <field name="Mouser Part Number">863-MC14043BDR2G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/MC14043BDR2G?qs=g2rIOKKlpoakmacEWY8Cmw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MC14043BDR2G" description="ON SEMICONDUCTOR - MC14043BDR2G - SR-LATCH, QUAD, TRI-STATE, SOIC-16"/>
+      <property name="Description" value="ON SEMICONDUCTOR - MC14043BDR2G - SR-LATCH, QUAD, TRI-STATE, SOIC-16"/>
+      <property name="Height" value="1.75"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="MC14043BDR2G"/>
+      <property name="Mouser Part Number" value="863-MC14043BDR2G"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/MC14043BDR2G?qs=g2rIOKKlpoakmacEWY8Cmw%3D%3D"/>
+      <property name="Arrow Part Number" value="MC14043BDR2G"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/mc14043bdr2g/on-semiconductor?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="ON SEMICONDUCTOR - MC14043BDR2G - SR-LATCH, QUAD, TRI-STATE, SOIC-16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52d1de6f-740c-4888-95aa-005fbb4f0770</tstamps>
+    </comp>
+    <comp ref="IC5">
+      <value>MC14027BDR2G</value>
+      <footprint>SOIC127P600X175-16N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MC14027B-D.PDF</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MC14027BDR2G</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mc14027bdr2g/on-semiconductor</field>
+        <field name="Description">Flip Flops 3-18V CMOS Dual JK-Type</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MC14027BDR2G</field>
+        <field name="Mouser Part Number">863-MC14027BDR2G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/MC14027BDR2G?qs=g2rIOKKlpobE9BrNZHasrw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MC14027BDR2G" description="Flip Flops 3-18V CMOS Dual JK-Type"/>
+      <property name="Description" value="Flip Flops 3-18V CMOS Dual JK-Type"/>
+      <property name="Height" value="1.75"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="MC14027BDR2G"/>
+      <property name="Mouser Part Number" value="863-MC14027BDR2G"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/MC14027BDR2G?qs=g2rIOKKlpobE9BrNZHasrw%3D%3D"/>
+      <property name="Arrow Part Number" value="MC14027BDR2G"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/mc14027bdr2g/on-semiconductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Flip Flops 3-18V CMOS Dual JK-Type"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96235f75-2286-433d-b0f6-ecbc85be2daf</tstamps>
+    </comp>
+    <comp ref="IC6">
+      <value>CD4082BM96</value>
+      <footprint>SOIC127P600X175-14N</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/cd4082b</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CD4082BM96</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cd4082bm96/texas-instruments?region=nac</field>
+        <field name="Description">CMOS Dual 4-Input AND Gate</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">CD4082BM96</field>
+        <field name="Mouser Part Number">595-CD4082BM96</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD4082BM96?qs=HTr%252BoA4jRinQqcvairnoMQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="CD4082BM96" description="CMOS Dual 4-Input AND Gate"/>
+      <property name="Description" value="CMOS Dual 4-Input AND Gate"/>
+      <property name="Height" value="1.75"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="CD4082BM96"/>
+      <property name="Mouser Part Number" value="595-CD4082BM96"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD4082BM96?qs=HTr%252BoA4jRinQqcvairnoMQ%3D%3D"/>
+      <property name="Arrow Part Number" value="CD4082BM96"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/cd4082bm96/texas-instruments?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="CMOS Dual 4-Input AND Gate"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a04e1ca-5288-44b9-8594-a45aa27a29a3</tstamps>
+    </comp>
+    <comp ref="IC7">
+      <value>74LVC1G32GV,125</value>
+      <footprint>SOT95P275X110-5N</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74LVC1G32.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">74LVC1G32GV,125</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/74lvc1g32gv125/nexperia?region=nac</field>
+        <field name="Description">NEXPERIA - 74LVC1G32GV,125 - OR GATE, SINGLE, 2 I/P, SC-74A-5</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">74LVC1G32GV,125</field>
+        <field name="Mouser Part Number">771-LVC1G32GV125</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/74LVC1G32GV125?qs=me8TqzrmIYXExQH4V9SARg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="74LVC1G32GV,125" description="NEXPERIA - 74LVC1G32GV,125 - OR GATE, SINGLE, 2 I/P, SC-74A-5"/>
+      <property name="Description" value="NEXPERIA - 74LVC1G32GV,125 - OR GATE, SINGLE, 2 I/P, SC-74A-5"/>
+      <property name="Height" value="1.1"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G32GV,125"/>
+      <property name="Mouser Part Number" value="771-LVC1G32GV125"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/74LVC1G32GV125?qs=me8TqzrmIYXExQH4V9SARg%3D%3D"/>
+      <property name="Arrow Part Number" value="74LVC1G32GV,125"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/74lvc1g32gv125/nexperia?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="NEXPERIA - 74LVC1G32GV,125 - OR GATE, SINGLE, 2 I/P, SC-74A-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4bc10c24-76c4-4019-bcbd-409bacec3b7f</tstamps>
+    </comp>
+    <comp ref="IC8">
+      <value>MC14027BDR2G</value>
+      <footprint>SOIC127P600X175-16N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MC14027B-D.PDF</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MC14027BDR2G</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mc14027bdr2g/on-semiconductor</field>
+        <field name="Description">Flip Flops 3-18V CMOS Dual JK-Type</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MC14027BDR2G</field>
+        <field name="Mouser Part Number">863-MC14027BDR2G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/MC14027BDR2G?qs=g2rIOKKlpobE9BrNZHasrw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MC14027BDR2G" description="Flip Flops 3-18V CMOS Dual JK-Type"/>
+      <property name="Description" value="Flip Flops 3-18V CMOS Dual JK-Type"/>
+      <property name="Height" value="1.75"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="MC14027BDR2G"/>
+      <property name="Mouser Part Number" value="863-MC14027BDR2G"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/MC14027BDR2G?qs=g2rIOKKlpobE9BrNZHasrw%3D%3D"/>
+      <property name="Arrow Part Number" value="MC14027BDR2G"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/mc14027bdr2g/on-semiconductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Flip Flops 3-18V CMOS Dual JK-Type"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d180a73-d162-4d51-b889-7b22ffbc6864</tstamps>
+    </comp>
+    <comp ref="IC9">
+      <value>MC14027BDR2G</value>
+      <footprint>SOIC127P600X175-16N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MC14027B-D.PDF</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MC14027BDR2G</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mc14027bdr2g/on-semiconductor</field>
+        <field name="Description">Flip Flops 3-18V CMOS Dual JK-Type</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MC14027BDR2G</field>
+        <field name="Mouser Part Number">863-MC14027BDR2G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/MC14027BDR2G?qs=g2rIOKKlpobE9BrNZHasrw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MC14027BDR2G" description="Flip Flops 3-18V CMOS Dual JK-Type"/>
+      <property name="Description" value="Flip Flops 3-18V CMOS Dual JK-Type"/>
+      <property name="Height" value="1.75"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="MC14027BDR2G"/>
+      <property name="Mouser Part Number" value="863-MC14027BDR2G"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/MC14027BDR2G?qs=g2rIOKKlpobE9BrNZHasrw%3D%3D"/>
+      <property name="Arrow Part Number" value="MC14027BDR2G"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/mc14027bdr2g/on-semiconductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Flip Flops 3-18V CMOS Dual JK-Type"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb780665-c628-4ebb-a640-54b829c1eff0</tstamps>
+    </comp>
+    <comp ref="IC10">
+      <value>74LVC1G08FW5-7</value>
+      <footprint>74LVC1G08FW57</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/74LVC1G08.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">74LVC1G08FW5-7</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/74lvc1g08fw5-7/diodes-incorporated?region=nac</field>
+        <field name="Description">Logic Gates Single 2 Input POS AND Gate 1.65 to 5.5</field>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">74LVC1G08FW5-7</field>
+        <field name="Mouser Part Number">621-74LVC1G08FW5-7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC1G08FW5-7?qs=mYAa4mSiDJyHmkX79TXrAg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="74LVC1G08FW5-7" description="Logic Gates Single 2 Input POS AND Gate 1.65 to 5.5"/>
+      <property name="Description" value="Logic Gates Single 2 Input POS AND Gate 1.65 to 5.5"/>
+      <property name="Height" value="0.5"/>
+      <property name="Manufacturer_Name" value="Diodes Inc."/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G08FW5-7"/>
+      <property name="Mouser Part Number" value="621-74LVC1G08FW5-7"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC1G08FW5-7?qs=mYAa4mSiDJyHmkX79TXrAg%3D%3D"/>
+      <property name="Arrow Part Number" value="74LVC1G08FW5-7"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/74lvc1g08fw5-7/diodes-incorporated?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Logic Gates Single 2 Input POS AND Gate 1.65 to 5.5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>402bafb8-6501-44ec-acbb-401029acc76f</tstamps>
+    </comp>
+    <comp ref="IC11">
+      <value>TMUX4051PWR</value>
+      <footprint>SOP65P640X120-16N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tmux4051.pdf?ts=1669671651311&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX4051</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TMUX4051PWR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tmux4051pwr/texas-instruments?region=nac</field>
+        <field name="Description">Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TMUX4051PWR</field>
+        <field name="Mouser Part Number">595-TMUX4051PWR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051PWR?qs=Y0Uzf4wQF3n3uNEgCUiuog%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TMUX4051PWR" description="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <property name="Description" value="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <property name="Height" value="1.2"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TMUX4051PWR"/>
+      <property name="Mouser Part Number" value="595-TMUX4051PWR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051PWR?qs=Y0Uzf4wQF3n3uNEgCUiuog%3D%3D"/>
+      <property name="Arrow Part Number" value="TMUX4051PWR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/tmux4051pwr/texas-instruments?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53837ebc-1c87-4ad7-aa76-bcb1ae9c7898</tstamps>
+    </comp>
+    <comp ref="IC12">
+      <value>TMUX4051PWR</value>
+      <footprint>SOP65P640X120-16N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tmux4051.pdf?ts=1669671651311&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX4051</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TMUX4051PWR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tmux4051pwr/texas-instruments?region=nac</field>
+        <field name="Description">Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TMUX4051PWR</field>
+        <field name="Mouser Part Number">595-TMUX4051PWR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051PWR?qs=Y0Uzf4wQF3n3uNEgCUiuog%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TMUX4051PWR" description="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <property name="Description" value="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <property name="Height" value="1.2"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TMUX4051PWR"/>
+      <property name="Mouser Part Number" value="595-TMUX4051PWR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051PWR?qs=Y0Uzf4wQF3n3uNEgCUiuog%3D%3D"/>
+      <property name="Arrow Part Number" value="TMUX4051PWR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/tmux4051pwr/texas-instruments?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7b70fea-be72-428d-a41d-ea70b93dbe65</tstamps>
+    </comp>
+    <comp ref="IC13">
+      <value>TMUX4051PWR</value>
+      <footprint>SOP65P640X120-16N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tmux4051.pdf?ts=1669671651311&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX4051</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TMUX4051PWR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tmux4051pwr/texas-instruments?region=nac</field>
+        <field name="Description">Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TMUX4051PWR</field>
+        <field name="Mouser Part Number">595-TMUX4051PWR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051PWR?qs=Y0Uzf4wQF3n3uNEgCUiuog%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TMUX4051PWR" description="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <property name="Description" value="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <property name="Height" value="1.2"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TMUX4051PWR"/>
+      <property name="Mouser Part Number" value="595-TMUX4051PWR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051PWR?qs=Y0Uzf4wQF3n3uNEgCUiuog%3D%3D"/>
+      <property name="Arrow Part Number" value="TMUX4051PWR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/tmux4051pwr/texas-instruments?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fc77e4c-e0a6-4559-956d-5f6982579755</tstamps>
+    </comp>
+    <comp ref="IC14">
+      <value>TMUX4051PWR</value>
+      <footprint>SOP65P640X120-16N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tmux4051.pdf?ts=1669671651311&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX4051</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TMUX4051PWR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tmux4051pwr/texas-instruments?region=nac</field>
+        <field name="Description">Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TMUX4051PWR</field>
+        <field name="Mouser Part Number">595-TMUX4051PWR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051PWR?qs=Y0Uzf4wQF3n3uNEgCUiuog%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TMUX4051PWR" description="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <property name="Description" value="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <property name="Height" value="1.2"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TMUX4051PWR"/>
+      <property name="Mouser Part Number" value="595-TMUX4051PWR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051PWR?qs=Y0Uzf4wQF3n3uNEgCUiuog%3D%3D"/>
+      <property name="Arrow Part Number" value="TMUX4051PWR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/tmux4051pwr/texas-instruments?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68d4b8ff-b7a3-4107-bd5f-f90627f40df2</tstamps>
+    </comp>
+    <comp ref="IC15">
+      <value>TMUX4051PWR</value>
+      <footprint>SOP65P640X120-16N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tmux4051.pdf?ts=1669671651311&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX4051</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TMUX4051PWR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tmux4051pwr/texas-instruments?region=nac</field>
+        <field name="Description">Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TMUX4051PWR</field>
+        <field name="Mouser Part Number">595-TMUX4051PWR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051PWR?qs=Y0Uzf4wQF3n3uNEgCUiuog%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TMUX4051PWR" description="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <property name="Description" value="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <property name="Height" value="1.2"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TMUX4051PWR"/>
+      <property name="Mouser Part Number" value="595-TMUX4051PWR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051PWR?qs=Y0Uzf4wQF3n3uNEgCUiuog%3D%3D"/>
+      <property name="Arrow Part Number" value="TMUX4051PWR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/tmux4051pwr/texas-instruments?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24fab22d-69cd-48e1-b222-cf2d6b166127</tstamps>
+    </comp>
+    <comp ref="IC16">
+      <value>TMUX4051PWR</value>
+      <footprint>SOP65P640X120-16N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tmux4051.pdf?ts=1669671651311&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX4051</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TMUX4051PWR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tmux4051pwr/texas-instruments?region=nac</field>
+        <field name="Description">Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TMUX4051PWR</field>
+        <field name="Mouser Part Number">595-TMUX4051PWR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051PWR?qs=Y0Uzf4wQF3n3uNEgCUiuog%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TMUX4051PWR" description="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <property name="Description" value="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <property name="Height" value="1.2"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TMUX4051PWR"/>
+      <property name="Mouser Part Number" value="595-TMUX4051PWR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051PWR?qs=Y0Uzf4wQF3n3uNEgCUiuog%3D%3D"/>
+      <property name="Arrow Part Number" value="TMUX4051PWR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/tmux4051pwr/texas-instruments?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>699ce017-2066-4477-871e-5be2220a9bc3</tstamps>
+    </comp>
+    <comp ref="IC17">
+      <value>TMUX4051PWR</value>
+      <footprint>SOP65P640X120-16N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tmux4051.pdf?ts=1669671651311&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX4051</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TMUX4051PWR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tmux4051pwr/texas-instruments?region=nac</field>
+        <field name="Description">Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TMUX4051PWR</field>
+        <field name="Mouser Part Number">595-TMUX4051PWR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051PWR?qs=Y0Uzf4wQF3n3uNEgCUiuog%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TMUX4051PWR" description="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <property name="Description" value="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <property name="Height" value="1.2"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TMUX4051PWR"/>
+      <property name="Mouser Part Number" value="595-TMUX4051PWR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051PWR?qs=Y0Uzf4wQF3n3uNEgCUiuog%3D%3D"/>
+      <property name="Arrow Part Number" value="TMUX4051PWR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/tmux4051pwr/texas-instruments?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c04d6871-4b37-47ff-8119-df5cab7a4964</tstamps>
+    </comp>
+    <comp ref="IC18">
+      <value>TMUX4051PWR</value>
+      <footprint>SOP65P640X120-16N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tmux4051.pdf?ts=1669671651311&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX4051</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TMUX4051PWR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tmux4051pwr/texas-instruments?region=nac</field>
+        <field name="Description">Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TMUX4051PWR</field>
+        <field name="Mouser Part Number">595-TMUX4051PWR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051PWR?qs=Y0Uzf4wQF3n3uNEgCUiuog%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TMUX4051PWR" description="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <property name="Description" value="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <property name="Height" value="1.2"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TMUX4051PWR"/>
+      <property name="Mouser Part Number" value="595-TMUX4051PWR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051PWR?qs=Y0Uzf4wQF3n3uNEgCUiuog%3D%3D"/>
+      <property name="Arrow Part Number" value="TMUX4051PWR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/tmux4051pwr/texas-instruments?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9650b976-ece9-4d09-a64d-ca120e4b8867</tstamps>
+    </comp>
+    <comp ref="IC19">
+      <value>TMUX4051PWR</value>
+      <footprint>SOP65P640X120-16N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tmux4051.pdf?ts=1669671651311&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX4051</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TMUX4051PWR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tmux4051pwr/texas-instruments?region=nac</field>
+        <field name="Description">Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TMUX4051PWR</field>
+        <field name="Mouser Part Number">595-TMUX4051PWR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051PWR?qs=Y0Uzf4wQF3n3uNEgCUiuog%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TMUX4051PWR" description="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <property name="Description" value="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <property name="Height" value="1.2"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TMUX4051PWR"/>
+      <property name="Mouser Part Number" value="595-TMUX4051PWR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051PWR?qs=Y0Uzf4wQF3n3uNEgCUiuog%3D%3D"/>
+      <property name="Arrow Part Number" value="TMUX4051PWR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/tmux4051pwr/texas-instruments?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c850aa7-883b-4c7b-9fba-15bb1d8db459</tstamps>
+    </comp>
+    <comp ref="IC20">
+      <value>74AUP1T87GWH</value>
+      <footprint>SOT65P212X110-5N</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74AUP1T87.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">74AUP1T87GWH</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/74aup1t87gwh/nexperia?region=nac</field>
+        <field name="Description">74AUP1T87 - Low-power 2-input EXCLUSIVE-NOR gate with voltage-leveltranslator@en-us</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">74AUP1T87GWH</field>
+        <field name="Mouser Part Number">771-74AUP1T87GWH</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/74AUP1T87GWH?qs=W0yvOO0ixfFG1cicN92A1A%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="74AUP1T87GWH" description="74AUP1T87 - Low-power 2-input EXCLUSIVE-NOR gate with voltage-leveltranslator@en-us"/>
+      <property name="Description" value="74AUP1T87 - Low-power 2-input EXCLUSIVE-NOR gate with voltage-leveltranslator@en-us"/>
+      <property name="Height" value="1.1"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="74AUP1T87GWH"/>
+      <property name="Mouser Part Number" value="771-74AUP1T87GWH"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/74AUP1T87GWH?qs=W0yvOO0ixfFG1cicN92A1A%3D%3D"/>
+      <property name="Arrow Part Number" value="74AUP1T87GWH"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/74aup1t87gwh/nexperia?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="74AUP1T87 - Low-power 2-input EXCLUSIVE-NOR gate with voltage-leveltranslator@en-us"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4240af15-d5d9-42ea-9b63-10f0912f1041</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT2222</value>
+      <footprint>SamacSys_Parts:SOT95P240X114-3N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/MMBT2222.pdf</datasheet>
+      <fields>
+        <field name="Description">Bipolar Transistors - BJT NPN Transistor General Purpose</field>
+        <field name="Height">1.14</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MMBT2222</field>
+        <field name="Mouser Part Number">512-MMBT2222</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMBT2222?qs=UMEuL5FsraD0NR7loUMuuw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MMBT2222" description="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <property name="Description" value="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <property name="Height" value="1.14"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="MMBT2222"/>
+      <property name="Mouser Part Number" value="512-MMBT2222"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMBT2222?qs=UMEuL5FsraD0NR7loUMuuw%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56cef4f1-ad7d-4a83-85ae-c55d87212b71</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBT2907A-7-F</value>
+      <footprint>SOT96P240X100-3N</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30040.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MMBT2907A-7-F</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mmbt2907a-7-f/diodes-incorporated?region=nac</field>
+        <field name="Description">Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">MMBT2907A-7-F</field>
+        <field name="Mouser Part Number">621-MMBT2907A-F</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/MMBT2907A-7-F?qs=nzdy8YbEw1%252BnciVJrv5MLg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MMBT2907A-7-F" description="Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23"/>
+      <property name="Description" value="Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23"/>
+      <property name="Height" value="1"/>
+      <property name="Manufacturer_Name" value="Diodes Inc."/>
+      <property name="Manufacturer_Part_Number" value="MMBT2907A-7-F"/>
+      <property name="Mouser Part Number" value="621-MMBT2907A-F"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/MMBT2907A-7-F?qs=nzdy8YbEw1%252BnciVJrv5MLg%3D%3D"/>
+      <property name="Arrow Part Number" value="MMBT2907A-7-F"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/mmbt2907a-7-f/diodes-incorporated?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1645527e-009e-49df-8c8d-f74c82949cc5</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>MMBT2907A-7-F</value>
+      <footprint>SOT96P240X100-3N</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30040.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MMBT2907A-7-F</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mmbt2907a-7-f/diodes-incorporated?region=nac</field>
+        <field name="Description">Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">MMBT2907A-7-F</field>
+        <field name="Mouser Part Number">621-MMBT2907A-F</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/MMBT2907A-7-F?qs=nzdy8YbEw1%252BnciVJrv5MLg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MMBT2907A-7-F" description="Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23"/>
+      <property name="Description" value="Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23"/>
+      <property name="Height" value="1"/>
+      <property name="Manufacturer_Name" value="Diodes Inc."/>
+      <property name="Manufacturer_Part_Number" value="MMBT2907A-7-F"/>
+      <property name="Mouser Part Number" value="621-MMBT2907A-F"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/MMBT2907A-7-F?qs=nzdy8YbEw1%252BnciVJrv5MLg%3D%3D"/>
+      <property name="Arrow Part Number" value="MMBT2907A-7-F"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/mmbt2907a-7-f/diodes-incorporated?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c91e7f5-4ce3-4ba0-8243-61ca7b194e48</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>MMBT2222</value>
+      <footprint>SamacSys_Parts:SOT95P240X114-3N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/MMBT2222.pdf</datasheet>
+      <fields>
+        <field name="Description">Bipolar Transistors - BJT NPN Transistor General Purpose</field>
+        <field name="Height">1.14</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MMBT2222</field>
+        <field name="Mouser Part Number">512-MMBT2222</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMBT2222?qs=UMEuL5FsraD0NR7loUMuuw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MMBT2222" description="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <property name="Description" value="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <property name="Height" value="1.14"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="MMBT2222"/>
+      <property name="Mouser Part Number" value="512-MMBT2222"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMBT2222?qs=UMEuL5FsraD0NR7loUMuuw%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a00ff7b-5cc0-410b-9779-686c127fd374</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>MMBT2222</value>
+      <footprint>SamacSys_Parts:SOT95P240X114-3N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/MMBT2222.pdf</datasheet>
+      <fields>
+        <field name="Description">Bipolar Transistors - BJT NPN Transistor General Purpose</field>
+        <field name="Height">1.14</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MMBT2222</field>
+        <field name="Mouser Part Number">512-MMBT2222</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMBT2222?qs=UMEuL5FsraD0NR7loUMuuw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MMBT2222" description="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <property name="Description" value="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <property name="Height" value="1.14"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="MMBT2222"/>
+      <property name="Mouser Part Number" value="512-MMBT2222"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMBT2222?qs=UMEuL5FsraD0NR7loUMuuw%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d4ce1d2-0038-4c01-a170-42f66ee64885</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>MMBT2222</value>
+      <footprint>SamacSys_Parts:SOT95P240X114-3N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/MMBT2222.pdf</datasheet>
+      <fields>
+        <field name="Description">Bipolar Transistors - BJT NPN Transistor General Purpose</field>
+        <field name="Height">1.14</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MMBT2222</field>
+        <field name="Mouser Part Number">512-MMBT2222</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMBT2222?qs=UMEuL5FsraD0NR7loUMuuw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MMBT2222" description="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <property name="Description" value="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <property name="Height" value="1.14"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="MMBT2222"/>
+      <property name="Mouser Part Number" value="512-MMBT2222"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMBT2222?qs=UMEuL5FsraD0NR7loUMuuw%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7cf5d01-52ca-4135-b54f-d1f1b65750ae</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>MMBT2222</value>
+      <footprint>SamacSys_Parts:SOT95P240X114-3N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/MMBT2222.pdf</datasheet>
+      <fields>
+        <field name="Description">Bipolar Transistors - BJT NPN Transistor General Purpose</field>
+        <field name="Height">1.14</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MMBT2222</field>
+        <field name="Mouser Part Number">512-MMBT2222</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMBT2222?qs=UMEuL5FsraD0NR7loUMuuw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MMBT2222" description="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <property name="Description" value="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <property name="Height" value="1.14"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="MMBT2222"/>
+      <property name="Mouser Part Number" value="512-MMBT2222"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMBT2222?qs=UMEuL5FsraD0NR7loUMuuw%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbee4281-0411-4862-9571-d9e9d6d7dea5</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>MMBT2222</value>
+      <footprint>SamacSys_Parts:SOT95P240X114-3N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/MMBT2222.pdf</datasheet>
+      <fields>
+        <field name="Description">Bipolar Transistors - BJT NPN Transistor General Purpose</field>
+        <field name="Height">1.14</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MMBT2222</field>
+        <field name="Mouser Part Number">512-MMBT2222</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMBT2222?qs=UMEuL5FsraD0NR7loUMuuw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MMBT2222" description="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <property name="Description" value="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <property name="Height" value="1.14"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="MMBT2222"/>
+      <property name="Mouser Part Number" value="512-MMBT2222"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMBT2222?qs=UMEuL5FsraD0NR7loUMuuw%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea7209d4-390f-4e72-bb3f-56eab0c01c46</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>MMBT2222</value>
+      <footprint>SamacSys_Parts:SOT95P240X114-3N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/MMBT2222.pdf</datasheet>
+      <fields>
+        <field name="Description">Bipolar Transistors - BJT NPN Transistor General Purpose</field>
+        <field name="Height">1.14</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MMBT2222</field>
+        <field name="Mouser Part Number">512-MMBT2222</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMBT2222?qs=UMEuL5FsraD0NR7loUMuuw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MMBT2222" description="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <property name="Description" value="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <property name="Height" value="1.14"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="MMBT2222"/>
+      <property name="Mouser Part Number" value="512-MMBT2222"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMBT2222?qs=UMEuL5FsraD0NR7loUMuuw%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>437ff24f-4056-48a3-9a2f-b2b611355d58</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>MMBT2907A-7-F</value>
+      <footprint>SOT96P240X100-3N</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30040.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MMBT2907A-7-F</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mmbt2907a-7-f/diodes-incorporated?region=nac</field>
+        <field name="Description">Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">MMBT2907A-7-F</field>
+        <field name="Mouser Part Number">621-MMBT2907A-F</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/MMBT2907A-7-F?qs=nzdy8YbEw1%252BnciVJrv5MLg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MMBT2907A-7-F" description="Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23"/>
+      <property name="Description" value="Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23"/>
+      <property name="Height" value="1"/>
+      <property name="Manufacturer_Name" value="Diodes Inc."/>
+      <property name="Manufacturer_Part_Number" value="MMBT2907A-7-F"/>
+      <property name="Mouser Part Number" value="621-MMBT2907A-F"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/MMBT2907A-7-F?qs=nzdy8YbEw1%252BnciVJrv5MLg%3D%3D"/>
+      <property name="Arrow Part Number" value="MMBT2907A-7-F"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/mmbt2907a-7-f/diodes-incorporated?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a45b0304-b1f5-4db6-a7e3-a40b98d2aebe</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>MMBT2907A-7-F</value>
+      <footprint>SOT96P240X100-3N</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30040.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MMBT2907A-7-F</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mmbt2907a-7-f/diodes-incorporated?region=nac</field>
+        <field name="Description">Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">MMBT2907A-7-F</field>
+        <field name="Mouser Part Number">621-MMBT2907A-F</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/MMBT2907A-7-F?qs=nzdy8YbEw1%252BnciVJrv5MLg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MMBT2907A-7-F" description="Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23"/>
+      <property name="Description" value="Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23"/>
+      <property name="Height" value="1"/>
+      <property name="Manufacturer_Name" value="Diodes Inc."/>
+      <property name="Manufacturer_Part_Number" value="MMBT2907A-7-F"/>
+      <property name="Mouser Part Number" value="621-MMBT2907A-F"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/MMBT2907A-7-F?qs=nzdy8YbEw1%252BnciVJrv5MLg%3D%3D"/>
+      <property name="Arrow Part Number" value="MMBT2907A-7-F"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/mmbt2907a-7-f/diodes-incorporated?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7de924d4-1d1c-4997-a0e7-2fcc7c9150bd</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>MMBT2907A-7-F</value>
+      <footprint>SOT96P240X100-3N</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30040.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MMBT2907A-7-F</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mmbt2907a-7-f/diodes-incorporated?region=nac</field>
+        <field name="Description">Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">MMBT2907A-7-F</field>
+        <field name="Mouser Part Number">621-MMBT2907A-F</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/MMBT2907A-7-F?qs=nzdy8YbEw1%252BnciVJrv5MLg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MMBT2907A-7-F" description="Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23"/>
+      <property name="Description" value="Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23"/>
+      <property name="Height" value="1"/>
+      <property name="Manufacturer_Name" value="Diodes Inc."/>
+      <property name="Manufacturer_Part_Number" value="MMBT2907A-7-F"/>
+      <property name="Mouser Part Number" value="621-MMBT2907A-F"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/MMBT2907A-7-F?qs=nzdy8YbEw1%252BnciVJrv5MLg%3D%3D"/>
+      <property name="Arrow Part Number" value="MMBT2907A-7-F"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/mmbt2907a-7-f/diodes-incorporated?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>598c662d-0dad-4953-9ac8-49f54a6553b8</tstamps>
+    </comp>
+    <comp ref="Q13">
+      <value>MMBT2222</value>
+      <footprint>SamacSys_Parts:SOT95P240X114-3N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/MMBT2222.pdf</datasheet>
+      <fields>
+        <field name="Description">Bipolar Transistors - BJT NPN Transistor General Purpose</field>
+        <field name="Height">1.14</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MMBT2222</field>
+        <field name="Mouser Part Number">512-MMBT2222</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMBT2222?qs=UMEuL5FsraD0NR7loUMuuw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MMBT2222" description="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <property name="Description" value="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <property name="Height" value="1.14"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="MMBT2222"/>
+      <property name="Mouser Part Number" value="512-MMBT2222"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMBT2222?qs=UMEuL5FsraD0NR7loUMuuw%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea4e59cb-89ca-49d9-b7dd-fd8e0272e14c</tstamps>
+    </comp>
+    <comp ref="Q14">
+      <value>MMBT2222</value>
+      <footprint>SamacSys_Parts:SOT95P240X114-3N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/MMBT2222.pdf</datasheet>
+      <fields>
+        <field name="Description">Bipolar Transistors - BJT NPN Transistor General Purpose</field>
+        <field name="Height">1.14</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MMBT2222</field>
+        <field name="Mouser Part Number">512-MMBT2222</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMBT2222?qs=UMEuL5FsraD0NR7loUMuuw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MMBT2222" description="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <property name="Description" value="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <property name="Height" value="1.14"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="MMBT2222"/>
+      <property name="Mouser Part Number" value="512-MMBT2222"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMBT2222?qs=UMEuL5FsraD0NR7loUMuuw%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Bipolar Transistors - BJT NPN Transistor General Purpose"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5773cbdc-f519-495f-b1fd-e83733c078e0</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42c49bb1-6072-4544-95fd-8ee0992792da</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2988d41c-c7da-4b65-ac75-3544f1478972</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cef0af8-98f4-41dd-8823-e906d00760c6</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eab18a99-f250-447b-a22c-a8de9905dfac</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>51</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8cb35e71-8817-46d9-8f5a-acba20c5c003</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>51</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f6cbb65-37c1-4f15-a2e3-8f0005482989</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d3da6fe-e11b-49ee-ad39-877a88ceae8c</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0178f6bc-e40b-4b6e-baf2-e56017519993</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51e42de4-97b3-4d45-b519-61502e03613a</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>51</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1237ca1d-166d-4a84-a500-36c83f1e5fa1</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>220</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6765f591-7cfb-4982-8438-80c11b3a7ce5</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01620778-b506-4390-8133-240bacd2bfec</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>51</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4f18a7d-3c51-4c37-ab5a-bdad270b6607</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b693cb60-47fa-4d11-927b-845f7550cc79</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52b04612-487c-4e8b-87fb-a212ee7bf257</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04459014-e030-4325-a14a-4ca76be5fb8b</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>5.6k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abf38fd2-6544-43de-a0e5-38b524286792</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>917ed7c9-41b6-4bad-b1aa-227e9066225d</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6c84336-fb0f-44da-8dbf-0b7e1c0ab9b9</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed4e976b-c874-4f99-ab45-655980e2aef7</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>581312c8-652c-4aed-a439-96dc7df23ba4</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70bb631a-7efe-4451-b513-e03ed6386a4e</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4749080-d497-46ec-bba7-90f7bd0c30f9</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>5.6k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbb4e7f8-0939-4266-97fe-de6573f9c635</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>5.6k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cc73367-70d1-4227-aeea-7fb82a0400d2</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>5.6k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e00cc8bf-d148-49bf-974b-464ffe411845</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>5.6k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36f08f8c-ed70-4261-9745-5ce17fb5733c</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>5.6k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe04bd0f-d828-4166-bfb0-2b171cd87fe7</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>5.6k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a01f64a9-a315-4e6a-8822-7513d40d2717</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>5.6k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d30dfcf-810c-472e-96e7-597091810e75</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>51</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20a7663d-4e76-4d1c-b163-de11178cac1a</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>51</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be54e02c-a2bf-410f-9959-7da50b2c3be1</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>51</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>def123eb-a5ab-42fc-8f13-2d907f2ded46</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e672539c-aa07-4dac-91a5-4f5398d196bd</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>51</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aeb2d193-be78-4f21-b1b2-266044e5e230</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>5.6k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86930afd-598d-4b6a-97b5-f6127fc4f1b2</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b81aaa35-6d13-4d58-bd7b-b8cb17facaa5</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ea713ba-2cc5-4bc3-8b1f-15c9c10ee852</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>5.6k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7be57316-87ec-4f3a-a305-ef4f9049c66a</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>5.6k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebfb383e-588d-4933-a7a6-536d1449222c</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>5.6k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29b702c3-30d5-44f4-ab91-8541d0da809c</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>5.6k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d06c0855-ce0f-4095-a2dc-49c7c5d63b8a</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>51</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e1d862e-4d55-4d91-88ed-8f59970f24f3</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dda9fe43-c299-4f16-86da-07be51451d8c</tstamps>
+    </comp>
+    <comp ref="R48">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>462ada34-34cd-4758-8b5d-3c08f4b01117</tstamps>
+    </comp>
+    <comp ref="R49">
+      <value>51</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1851203c-bb86-4066-91c4-f8a75f812d0d</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca82c339-d80f-4774-91bb-b2cbc410eed9</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec1c44ac-652d-4c3a-bc59-15d04025fdcd</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>baca2626-194d-470b-84a0-344e8f3f7f8d</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push</value>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>164e929f-c7c9-4feb-9081-23939f132a74</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_Push</value>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90856e06-9fef-43c9-9219-d6dbfec4b7ef</tstamps>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_Push</value>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1fc674f-bdbe-45cd-920f-60cc3b9d6ed7</tstamps>
+    </comp>
+    <comp ref="SW7">
+      <value>SW_Push</value>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce8711e4-5273-4462-8768-970588dd2575</tstamps>
+    </comp>
+    <comp ref="SW8">
+      <value>SW_Push</value>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f0fcc06-9b1a-4d95-a964-a19e1cf617da</tstamps>
+    </comp>
+    <comp ref="SW9">
+      <value>SW_Push</value>
+      <footprint>SamacSys_Parts:EVPASAC1A</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0641195-634d-4119-a02e-50cacbf0252b</tstamps>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_Push</value>
+      <footprint>SamacSys_Parts:EVPASAC1A</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72d5a925-8d40-4835-9fe4-f2591303bb16</tstamps>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_Push</value>
+      <footprint>SamacSys_Parts:EVPASAC1A</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f206410c-3538-4142-a963-3951fdee2717</tstamps>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_Push</value>
+      <footprint>SamacSys_Parts:EVPASAC1A</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dba8ee4-0696-4e7a-b44c-1dcf53411c82</tstamps>
+    </comp>
+    <comp ref="SW13">
+      <value>SW_Push</value>
+      <footprint>SamacSys_Parts:EVPASAC1A</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f6db079-7846-4f46-a8ff-d1ad58be3b6e</tstamps>
+    </comp>
+    <comp ref="SW14">
+      <value>SW_Push</value>
+      <footprint>SamacSys_Parts:EVPASAC1A</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d77029b6-623f-40ac-998e-6a1428a5445b</tstamps>
+    </comp>
+    <comp ref="SW15">
+      <value>SW_Push</value>
+      <footprint>SamacSys_Parts:EVPASAC1A</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2dde51e7-eeb0-4378-bf6b-4c59eab826db</tstamps>
+    </comp>
+    <comp ref="SW18">
+      <value>SW_Push</value>
+      <footprint>SamacSys_Parts:EVPASAC1A</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>455745c0-ee24-4672-bb77-120799b35980</tstamps>
+    </comp>
+    <comp ref="SW19">
+      <value>SW_Push</value>
+      <footprint>SamacSys_Parts:EVPASAC1A</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>402983fc-71ed-48bb-a85d-b39feb0f5017</tstamps>
+    </comp>
+    <comp ref="SW20">
+      <value>SW_Push</value>
+      <footprint>SamacSys_Parts:EVPASAC1A</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fa90bcf-0c72-4f41-a3df-ed6c2a400014</tstamps>
+    </comp>
+    <comp ref="SW21">
+      <value>SW_Push</value>
+      <footprint>SamacSys_Parts:EVPASAC1A</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>708eaa26-5a57-4227-b2b9-3540f1aec817</tstamps>
+    </comp>
+    <comp ref="VR1">
+      <value>3314J-2-105E</value>
+      <footprint>3314J-1</footprint>
+      <datasheet>http://uk.rs-online.com/web/p/products/0177419</datasheet>
+      <fields>
+        <field name="Arrow Part Number">3314J-2-105E</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/3314j-2-105e/bourns?region=nac</field>
+        <field name="Description">1M SMD Trimmer Potentiometer 0.25W Top Adjust Bourns 3314 Series</field>
+        <field name="Manufacturer_Name">Bourns</field>
+        <field name="Manufacturer_Part_Number">3314J-2-105E</field>
+        <field name="Mouser Part Number">652-3314J-2-105E</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Bourns/3314J-2-105E?qs=tENXCkUKGaE%2FfdHVx4r9sQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="3314J-2-105E" description="1M SMD Trimmer Potentiometer 0.25W Top Adjust Bourns 3314 Series"/>
+      <property name="Description" value="1M SMD Trimmer Potentiometer 0.25W Top Adjust Bourns 3314 Series"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="Bourns"/>
+      <property name="Manufacturer_Part_Number" value="3314J-2-105E"/>
+      <property name="Mouser Part Number" value="652-3314J-2-105E"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Bourns/3314J-2-105E?qs=tENXCkUKGaE%2FfdHVx4r9sQ%3D%3D"/>
+      <property name="Arrow Part Number" value="3314J-2-105E"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/3314j-2-105e/bourns?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Logic-PCB.kicad_sch"/>
+      <property name="ki_description" value="1M SMD Trimmer Potentiometer 0.25W Top Adjust Bourns 3314 Series"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f384ca94-197b-4ff9-b85c-9b2d13ea1115</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="3314J-2-105E">
+      <description>1M SMD Trimmer Potentiometer 0.25W Top Adjust Bourns 3314 Series</description>
+      <docs>http://uk.rs-online.com/web/p/products/0177419</docs>
+      <fields>
+        <field name="Reference">VR</field>
+        <field name="Value">3314J-2-105E</field>
+        <field name="Footprint">3314J-1</field>
+        <field name="Datasheet">http://uk.rs-online.com/web/p/products/0177419</field>
+        <field name="Description">1M SMD Trimmer Potentiometer 0.25W Top Adjust Bourns 3314 Series</field>
+        <field name="Manufacturer_Name">Bourns</field>
+        <field name="Manufacturer_Part_Number">3314J-2-105E</field>
+        <field name="Mouser Part Number">652-3314J-2-105E</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Bourns/3314J-2-105E?qs=tENXCkUKGaE%2FfdHVx4r9sQ%3D%3D</field>
+        <field name="Arrow Part Number">3314J-2-105E</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/3314j-2-105e/bourns?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CCW" type="passive"/>
+        <pin num="2" name="WIPER" type="passive"/>
+        <pin num="3" name="CW" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="74AUP1T87GWH">
+      <description>74AUP1T87 - Low-power 2-input EXCLUSIVE-NOR gate with voltage-leveltranslator@en-us</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/74AUP1T87.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">74AUP1T87GWH</field>
+        <field name="Footprint">SOT65P212X110-5N</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74AUP1T87.pdf</field>
+        <field name="Description">74AUP1T87 - Low-power 2-input EXCLUSIVE-NOR gate with voltage-leveltranslator@en-us</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">74AUP1T87GWH</field>
+        <field name="Mouser Part Number">771-74AUP1T87GWH</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/74AUP1T87GWH?qs=W0yvOO0ixfFG1cicN92A1A%3D%3D</field>
+        <field name="Arrow Part Number">74AUP1T87GWH</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/74aup1t87gwh/nexperia?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="Y" type="passive"/>
+        <pin num="5" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="74LVC1G08FW5-7">
+      <description>Logic Gates Single 2 Input POS AND Gate 1.65 to 5.5</description>
+      <docs>https://www.diodes.com/assets/Datasheets/74LVC1G08.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">74LVC1G08FW5-7</field>
+        <field name="Footprint">74LVC1G08FW57</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/74LVC1G08.pdf</field>
+        <field name="Description">Logic Gates Single 2 Input POS AND Gate 1.65 to 5.5</field>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">74LVC1G08FW5-7</field>
+        <field name="Mouser Part Number">621-74LVC1G08FW5-7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC1G08FW5-7?qs=mYAa4mSiDJyHmkX79TXrAg%3D%3D</field>
+        <field name="Arrow Part Number">74LVC1G08FW5-7</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/74lvc1g08fw5-7/diodes-incorporated?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="Y" type="passive"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="74LVC1G32GV,125">
+      <description>NEXPERIA - 74LVC1G32GV,125 - OR GATE, SINGLE, 2 I/P, SC-74A-5</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/74LVC1G32.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">74LVC1G32GV,125</field>
+        <field name="Footprint">SOT95P275X110-5N</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74LVC1G32.pdf</field>
+        <field name="Description">NEXPERIA - 74LVC1G32GV,125 - OR GATE, SINGLE, 2 I/P, SC-74A-5</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">74LVC1G32GV,125</field>
+        <field name="Mouser Part Number">771-LVC1G32GV125</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/74LVC1G32GV125?qs=me8TqzrmIYXExQH4V9SARg%3D%3D</field>
+        <field name="Arrow Part Number">74LVC1G32GV,125</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/74lvc1g32gv125/nexperia?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="Y" type="passive"/>
+        <pin num="5" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="CD4082BM96">
+      <description>CMOS Dual 4-Input AND Gate</description>
+      <docs>http://www.ti.com/lit/gpn/cd4082b</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">CD4082BM96</field>
+        <field name="Footprint">SOIC127P600X175-14N</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/cd4082b</field>
+        <field name="Description">CMOS Dual 4-Input AND Gate</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">CD4082BM96</field>
+        <field name="Mouser Part Number">595-CD4082BM96</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD4082BM96?qs=HTr%252BoA4jRinQqcvairnoMQ%3D%3D</field>
+        <field name="Arrow Part Number">CD4082BM96</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cd4082bm96/texas-instruments?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="J=A+B.C.D" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="B" type="passive"/>
+        <pin num="5" name="A" type="passive"/>
+        <pin num="6" name="NC_1" type="passive"/>
+        <pin num="7" name="VSS" type="passive"/>
+        <pin num="8" name="NC_2" type="passive"/>
+        <pin num="9" name="E" type="passive"/>
+        <pin num="10" name="F" type="passive"/>
+        <pin num="11" name="G" type="passive"/>
+        <pin num="12" name="H" type="passive"/>
+        <pin num="13" name="K=E.F.G.H" type="passive"/>
+        <pin num="14" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="LM555CMX_NOPB">
+      <description>Standard Timer Single 8-Pin SOIC T/R</description>
+      <docs>https://www.ti.com/lit/gpn/LM555</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LM555CMX_NOPB</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/LM555</field>
+        <field name="Description">Standard Timer Single 8-Pin SOIC T/R</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM555CMX NOPB</field>
+        <field name="Arrow Part Number">LM555CMX NOPB</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/lm555cmxnopb/texas-instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="TRIGGER" type="passive"/>
+        <pin num="3" name="OUTPUT" type="passive"/>
+        <pin num="4" name="RESET" type="passive"/>
+        <pin num="5" name="CONTROL_VOLTAGE" type="passive"/>
+        <pin num="6" name="THRESHOLD" type="passive"/>
+        <pin num="7" name="DISCHARGE" type="passive"/>
+        <pin num="8" name="+VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="MC14027BDR2G">
+      <description>Flip Flops 3-18V CMOS Dual JK-Type</description>
+      <docs>http://www.onsemi.com/pub/Collateral/MC14027B-D.PDF</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MC14027BDR2G</field>
+        <field name="Footprint">SOIC127P600X175-16N</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/MC14027B-D.PDF</field>
+        <field name="Description">Flip Flops 3-18V CMOS Dual JK-Type</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MC14027BDR2G</field>
+        <field name="Mouser Part Number">863-MC14027BDR2G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/MC14027BDR2G?qs=g2rIOKKlpobE9BrNZHasrw%3D%3D</field>
+        <field name="Arrow Part Number">MC14027BDR2G</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mc14027bdr2g/on-semiconductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QA" type="passive"/>
+        <pin num="2" name="~{QA}" type="passive"/>
+        <pin num="3" name="CA" type="passive"/>
+        <pin num="4" name="RA" type="passive"/>
+        <pin num="5" name="KA" type="passive"/>
+        <pin num="6" name="JA" type="passive"/>
+        <pin num="7" name="SA" type="passive"/>
+        <pin num="8" name="VSS" type="passive"/>
+        <pin num="9" name="SB" type="passive"/>
+        <pin num="10" name="JB" type="passive"/>
+        <pin num="11" name="KB" type="passive"/>
+        <pin num="12" name="RB" type="passive"/>
+        <pin num="13" name="CB" type="passive"/>
+        <pin num="14" name="~{QB}" type="passive"/>
+        <pin num="15" name="QB" type="passive"/>
+        <pin num="16" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="MC14043BDR2G">
+      <description>ON SEMICONDUCTOR - MC14043BDR2G - SR-LATCH, QUAD, TRI-STATE, SOIC-16</description>
+      <docs>https://www.onsemi.com/pub/Collateral/MC14043B-D.PDF</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MC14043BDR2G</field>
+        <field name="Footprint">SOIC127P600X175-16N</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/MC14043B-D.PDF</field>
+        <field name="Description">ON SEMICONDUCTOR - MC14043BDR2G - SR-LATCH, QUAD, TRI-STATE, SOIC-16</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MC14043BDR2G</field>
+        <field name="Mouser Part Number">863-MC14043BDR2G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/MC14043BDR2G?qs=g2rIOKKlpoakmacEWY8Cmw%3D%3D</field>
+        <field name="Arrow Part Number">MC14043BDR2G</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mc14043bdr2g/on-semiconductor?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Q3" type="passive"/>
+        <pin num="2" name="Q0" type="passive"/>
+        <pin num="3" name="R0" type="passive"/>
+        <pin num="4" name="S0" type="passive"/>
+        <pin num="5" name="E" type="passive"/>
+        <pin num="6" name="S1" type="passive"/>
+        <pin num="7" name="R1" type="passive"/>
+        <pin num="8" name="VSS" type="passive"/>
+        <pin num="9" name="Q1" type="passive"/>
+        <pin num="10" name="Q2" type="passive"/>
+        <pin num="11" name="R2" type="passive"/>
+        <pin num="12" name="S2" type="passive"/>
+        <pin num="13" name="NC" type="no_connect"/>
+        <pin num="14" name="S3" type="passive"/>
+        <pin num="15" name="R3" type="passive"/>
+        <pin num="16" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="MMBT2222">
+      <description>Bipolar Transistors - BJT NPN Transistor General Purpose</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/MMBT2222.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT2222</field>
+        <field name="Footprint">SOT95P240X114-3N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/MMBT2222.pdf</field>
+        <field name="Description">Bipolar Transistors - BJT NPN Transistor General Purpose</field>
+        <field name="Height">1.14</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MMBT2222</field>
+        <field name="Mouser Part Number">512-MMBT2222</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMBT2222?qs=UMEuL5FsraD0NR7loUMuuw%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="MMBT2907A-7-F">
+      <description>Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23</description>
+      <docs>https://www.diodes.com/assets/Datasheets/ds30040.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT2907A-7-F</field>
+        <field name="Footprint">SOT96P240X100-3N</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds30040.pdf</field>
+        <field name="Description">Diodes Inc MMBT2907A-7-F PNP Bipolar Transistor, -600 mA, -60 V, 3-Pin SOT-23</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">MMBT2907A-7-F</field>
+        <field name="Mouser Part Number">621-MMBT2907A-F</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/MMBT2907A-7-F?qs=nzdy8YbEw1%252BnciVJrv5MLg%3D%3D</field>
+        <field name="Arrow Part Number">MMBT2907A-7-F</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mmbt2907a-7-f/diodes-incorporated?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="NLV17SZ74USG">
+      <description>ON Semiconductor NLV17SZ74USG, D Type Flip Flop, 1.65  5.5 V, 8-Pin US</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NL17SZ74-D.PDF</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">NLV17SZ74USG</field>
+        <field name="Footprint">SOP50P310X90-8N</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NL17SZ74-D.PDF</field>
+        <field name="Description">ON Semiconductor NLV17SZ74USG, D Type Flip Flop, 1.65  5.5 V, 8-Pin US</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">NLV17SZ74USG</field>
+        <field name="Mouser Part Number">863-NLV17SZ74USG</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/NLV17SZ74USG?qs=3PKVEWFFm29nc6kIWQphEw%3D%3D</field>
+        <field name="Arrow Part Number">NLV17SZ74USG</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/nlv17sz74usg/on-semiconductor?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CP" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="~{Q}" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="Q" type="passive"/>
+        <pin num="6" name="~{CLR}" type="passive"/>
+        <pin num="7" name="~{PR}" type="passive"/>
+        <pin num="8" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="PSA08-11GWA">
+      <description>LED Displays &amp; Accessories AlphaNum Grn 568nm Common Anode</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/PSA08-11GWA.pdf</docs>
+      <fields>
+        <field name="Reference">DS</field>
+        <field name="Value">PSA08-11GWA</field>
+        <field name="Footprint">PSA0811GWA</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/PSA08-11GWA.pdf</field>
+        <field name="Description">LED Displays &amp; Accessories AlphaNum Grn 568nm Common Anode</field>
+        <field name="Height">8.75</field>
+        <field name="Manufacturer_Name">Kingbright</field>
+        <field name="Manufacturer_Part_Number">PSA08-11GWA</field>
+        <field name="Mouser Part Number">604-PSA08-11GWA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Kingbright/PSA08-11GWA?qs=VdjlWU%2FzoOGXetunvhrCIw%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K_A" type="passive"/>
+        <pin num="2" name="K_M" type="passive"/>
+        <pin num="3" name="K_K" type="passive"/>
+        <pin num="4" name="K_H" type="passive"/>
+        <pin num="5" name="K_U" type="passive"/>
+        <pin num="6" name="K_S" type="passive"/>
+        <pin num="7" name="K_T" type="passive"/>
+        <pin num="8" name="K_G" type="passive"/>
+        <pin num="9" name="K_F" type="passive"/>
+        <pin num="10" name="K_E" type="passive"/>
+        <pin num="11" name="COM_A" type="passive"/>
+        <pin num="12" name="K_DP" type="passive"/>
+        <pin num="13" name="K_D" type="passive"/>
+        <pin num="14" name="K_R" type="passive"/>
+        <pin num="15" name="K_P" type="passive"/>
+        <pin num="16" name="K_C" type="passive"/>
+        <pin num="17" name="K_N" type="passive"/>
+        <pin num="18" name="K_B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TMUX4051PWR">
+      <description>Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tmux4051.pdf?ts=1669671651311&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX4051</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TMUX4051PWR</field>
+        <field name="Footprint">SOP65P640X120-16N</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tmux4051.pdf?ts=1669671651311&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX4051</field>
+        <field name="Description">Multiplexer Switch ICs +/-12-V, 8:1, one-channel multiplexer with 1.8-V compatible logic 16-TSSOP -55 to 125</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TMUX4051PWR</field>
+        <field name="Mouser Part Number">595-TMUX4051PWR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051PWR?qs=Y0Uzf4wQF3n3uNEgCUiuog%3D%3D</field>
+        <field name="Arrow Part Number">TMUX4051PWR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tmux4051pwr/texas-instruments?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S4" type="passive"/>
+        <pin num="2" name="S6" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+        <pin num="4" name="S7" type="passive"/>
+        <pin num="5" name="S5" type="passive"/>
+        <pin num="6" name="~{EN}" type="passive"/>
+        <pin num="7" name="VSS" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="A2" type="passive"/>
+        <pin num="10" name="A1" type="passive"/>
+        <pin num="11" name="A0" type="passive"/>
+        <pin num="12" name="S3" type="passive"/>
+        <pin num="13" name="S0" type="passive"/>
+        <pin num="14" name="S1" type="passive"/>
+        <pin num="15" name="S2" type="passive"/>
+        <pin num="16" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Users\Luke.Jensen\Downloads\KiCAD\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/Users/Luke.Jensen/OneDrive - Gentex Corporation/Documents/SamacSys_PCB_Library/KiCad/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Users\Luke.Jensen\Downloads\KiCAD\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V0">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="~{CLR}" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="~{PR}" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC10" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="IC10" pin="6" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC11" pin="1" pinfunction="S4" pintype="passive"/>
+      <node ref="IC11" pin="12" pinfunction="S3" pintype="passive"/>
+      <node ref="IC11" pin="13" pinfunction="S0" pintype="passive"/>
+      <node ref="IC11" pin="14" pinfunction="S1" pintype="passive"/>
+      <node ref="IC11" pin="15" pinfunction="S2" pintype="passive"/>
+      <node ref="IC11" pin="16" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC11" pin="2" pinfunction="S6" pintype="passive"/>
+      <node ref="IC11" pin="4" pinfunction="S7" pintype="passive"/>
+      <node ref="IC11" pin="5" pinfunction="S5" pintype="passive"/>
+      <node ref="IC11" pin="6" pinfunction="~{EN}" pintype="passive"/>
+      <node ref="IC11" pin="7" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC11" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="IC12" pin="1" pinfunction="S4" pintype="passive"/>
+      <node ref="IC12" pin="13" pinfunction="S0" pintype="passive"/>
+      <node ref="IC12" pin="14" pinfunction="S1" pintype="passive"/>
+      <node ref="IC12" pin="16" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC12" pin="6" pinfunction="~{EN}" pintype="passive"/>
+      <node ref="IC12" pin="7" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC12" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="IC13" pin="1" pinfunction="S4" pintype="passive"/>
+      <node ref="IC13" pin="13" pinfunction="S0" pintype="passive"/>
+      <node ref="IC13" pin="14" pinfunction="S1" pintype="passive"/>
+      <node ref="IC13" pin="15" pinfunction="S2" pintype="passive"/>
+      <node ref="IC13" pin="16" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC13" pin="6" pinfunction="~{EN}" pintype="passive"/>
+      <node ref="IC13" pin="7" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC13" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="IC14" pin="15" pinfunction="S2" pintype="passive"/>
+      <node ref="IC14" pin="16" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC14" pin="5" pinfunction="S5" pintype="passive"/>
+      <node ref="IC14" pin="6" pinfunction="~{EN}" pintype="passive"/>
+      <node ref="IC14" pin="7" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC14" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="IC15" pin="12" pinfunction="S3" pintype="passive"/>
+      <node ref="IC15" pin="16" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC15" pin="6" pinfunction="~{EN}" pintype="passive"/>
+      <node ref="IC15" pin="7" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC15" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="IC16" pin="16" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC16" pin="5" pinfunction="S5" pintype="passive"/>
+      <node ref="IC16" pin="6" pinfunction="~{EN}" pintype="passive"/>
+      <node ref="IC16" pin="7" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC16" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="IC17" pin="1" pinfunction="S4" pintype="passive"/>
+      <node ref="IC17" pin="14" pinfunction="S1" pintype="passive"/>
+      <node ref="IC17" pin="16" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC17" pin="6" pinfunction="~{EN}" pintype="passive"/>
+      <node ref="IC17" pin="7" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC17" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="IC18" pin="1" pinfunction="S4" pintype="passive"/>
+      <node ref="IC18" pin="12" pinfunction="S3" pintype="passive"/>
+      <node ref="IC18" pin="13" pinfunction="S0" pintype="passive"/>
+      <node ref="IC18" pin="14" pinfunction="S1" pintype="passive"/>
+      <node ref="IC18" pin="15" pinfunction="S2" pintype="passive"/>
+      <node ref="IC18" pin="16" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC18" pin="2" pinfunction="S6" pintype="passive"/>
+      <node ref="IC18" pin="4" pinfunction="S7" pintype="passive"/>
+      <node ref="IC18" pin="5" pinfunction="S5" pintype="passive"/>
+      <node ref="IC18" pin="6" pinfunction="~{EN}" pintype="passive"/>
+      <node ref="IC18" pin="7" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC18" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="IC19" pin="1" pinfunction="S4" pintype="passive"/>
+      <node ref="IC19" pin="12" pinfunction="S3" pintype="passive"/>
+      <node ref="IC19" pin="13" pinfunction="S0" pintype="passive"/>
+      <node ref="IC19" pin="14" pinfunction="S1" pintype="passive"/>
+      <node ref="IC19" pin="15" pinfunction="S2" pintype="passive"/>
+      <node ref="IC19" pin="16" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC19" pin="2" pinfunction="S6" pintype="passive"/>
+      <node ref="IC19" pin="4" pinfunction="S7" pintype="passive"/>
+      <node ref="IC19" pin="5" pinfunction="S5" pintype="passive"/>
+      <node ref="IC19" pin="6" pinfunction="~{EN}" pintype="passive"/>
+      <node ref="IC19" pin="7" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC19" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="IC2" pin="16" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC2" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="IC2" pin="7" pinfunction="SA" pintype="passive"/>
+      <node ref="IC2" pin="8" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC20" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="IC20" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC3" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="IC4" pin="16" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC4" pin="8" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC5" pin="16" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC5" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="IC5" pin="7" pinfunction="SA" pintype="passive"/>
+      <node ref="IC5" pin="8" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC6" pin="14" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC6" pin="7" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC7" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="IC7" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC8" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="IC8" pin="5" pinfunction="KA" pintype="passive"/>
+      <node ref="IC8" pin="6" pinfunction="JA" pintype="passive"/>
+      <node ref="IC8" pin="7" pinfunction="SA" pintype="passive"/>
+      <node ref="IC8" pin="8" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC9" pin="12" pinfunction="RB" pintype="passive"/>
+      <node ref="IC9" pin="16" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC9" pin="4" pinfunction="RA" pintype="passive"/>
+      <node ref="IC9" pin="7" pinfunction="SA" pintype="passive"/>
+      <node ref="IC9" pin="8" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC9" pin="9" pinfunction="SB" pintype="passive"/>
+      <node ref="Q1" pin="2" pintype="passive"/>
+      <node ref="Q10" pin="3" pintype="passive"/>
+      <node ref="Q11" pin="2" pintype="passive"/>
+      <node ref="Q13" pin="2" pintype="passive"/>
+      <node ref="Q14" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="2" pintype="passive"/>
+      <node ref="Q3" pin="2" pintype="passive"/>
+      <node ref="Q5" pin="2" pintype="passive"/>
+      <node ref="Q6" pin="3" pintype="passive"/>
+      <node ref="Q8" pin="3" pintype="passive"/>
+      <node ref="Q9" pin="3" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="R47" pin="1" pintype="passive"/>
+      <node ref="R48" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="SW10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="4" pinfunction="RESET" pintype="passive"/>
+      <node ref="IC3" pin="8" pinfunction="+VCC" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="Button">
+      <node ref="IC8" pin="3" pinfunction="CA" pintype="passive"/>
+      <node ref="IC9" pin="13" pinfunction="CB" pintype="passive"/>
+      <node ref="IC9" pin="3" pinfunction="CA" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="SW8" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="4" name="CLK">
+      <node ref="IC1" pin="1" pinfunction="CP" pintype="passive"/>
+      <node ref="IC2" pin="3" pinfunction="CA" pintype="passive"/>
+      <node ref="IC3" pin="3" pinfunction="OUTPUT" pintype="passive"/>
+      <node ref="IC4" pin="5" pinfunction="E" pintype="passive"/>
+      <node ref="IC5" pin="3" pinfunction="CA" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="3" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D6-A)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D7-A)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D8-A)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D9-A)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D10-A)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D10-K)">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q10" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D11-A)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D13-A)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R49" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(DS1-K_A)">
+      <node ref="DS1" pin="1" pinfunction="K_A" pintype="passive"/>
+      <node ref="DS1" pin="18" pinfunction="K_B" pintype="passive"/>
+      <node ref="IC18" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(DS1-K_C)">
+      <node ref="DS1" pin="16" pinfunction="K_C" pintype="passive"/>
+      <node ref="IC19" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(DS1-K_D)">
+      <node ref="DS1" pin="13" pinfunction="K_D" pintype="passive"/>
+      <node ref="IC11" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(DS1-K_E)">
+      <node ref="DS1" pin="10" pinfunction="K_E" pintype="passive"/>
+      <node ref="DS1" pin="15" pinfunction="K_P" pintype="passive"/>
+      <node ref="DS1" pin="9" pinfunction="K_F" pintype="passive"/>
+      <node ref="IC12" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(DS1-K_G)">
+      <node ref="DS1" pin="4" pinfunction="K_H" pintype="passive"/>
+      <node ref="DS1" pin="8" pinfunction="K_G" pintype="passive"/>
+      <node ref="IC13" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(DS1-K_K)">
+      <node ref="DS1" pin="14" pinfunction="K_R" pintype="passive"/>
+      <node ref="DS1" pin="3" pinfunction="K_K" pintype="passive"/>
+      <node ref="IC14" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(DS1-K_M)">
+      <node ref="DS1" pin="2" pinfunction="K_M" pintype="passive"/>
+      <node ref="DS1" pin="6" pinfunction="K_S" pintype="passive"/>
+      <node ref="IC15" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(DS1-K_N)">
+      <node ref="DS1" pin="17" pinfunction="K_N" pintype="passive"/>
+      <node ref="DS1" pin="7" pinfunction="K_T" pintype="passive"/>
+      <node ref="IC16" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(DS1-K_U)">
+      <node ref="DS1" pin="5" pinfunction="K_U" pintype="passive"/>
+      <node ref="IC17" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(IC1-D)">
+      <node ref="IC1" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(IC1-Q)">
+      <node ref="IC1" pin="5" pinfunction="Q" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(IC2-JA)">
+      <node ref="IC2" pin="6" pinfunction="JA" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(IC2-KA)">
+      <node ref="IC2" pin="5" pinfunction="KA" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(IC2-QA)">
+      <node ref="IC2" pin="1" pinfunction="QA" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(IC3-CONTROL_VOLTAGE)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="5" pinfunction="CONTROL_VOLTAGE" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(IC3-DISCHARGE)">
+      <node ref="IC3" pin="7" pinfunction="DISCHARGE" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(IC3-THRESHOLD)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="2" pinfunction="TRIGGER" pintype="passive"/>
+      <node ref="IC3" pin="6" pinfunction="THRESHOLD" pintype="passive"/>
+      <node ref="VR1" pin="3" pinfunction="CW" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(IC4-Q0)">
+      <node ref="IC4" pin="2" pinfunction="Q0" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(IC4-R0)">
+      <node ref="IC4" pin="3" pinfunction="R0" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(IC4-S0)">
+      <node ref="IC4" pin="4" pinfunction="S0" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="SW6" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(IC5-JA)">
+      <node ref="IC5" pin="5" pinfunction="KA" pintype="passive"/>
+      <node ref="IC5" pin="6" pinfunction="JA" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="SW7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(IC5-QA)">
+      <node ref="IC5" pin="1" pinfunction="QA" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(IC6-F)">
+      <node ref="IC6" pin="10" pinfunction="F" pintype="passive"/>
+      <node ref="IC9" pin="14" pinfunction="~{QB}" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(IC6-J=A+B.C.D)">
+      <node ref="IC6" pin="1" pinfunction="J=A+B.C.D" pintype="passive"/>
+      <node ref="IC7" pin="1" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(IC6-K=E.F.G.H)">
+      <node ref="IC6" pin="13" pinfunction="K=E.F.G.H" pintype="passive"/>
+      <node ref="IC7" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(IC7-Y)">
+      <node ref="IC7" pin="4" pinfunction="Y" pintype="passive"/>
+      <node ref="IC9" pin="5" pinfunction="KA" pintype="passive"/>
+      <node ref="IC9" pin="6" pinfunction="JA" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(IC10-A)">
+      <node ref="IC10" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="IC6" pin="4" pinfunction="B" pintype="passive"/>
+      <node ref="IC9" pin="2" pinfunction="~{QA}" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(IC10-B)">
+      <node ref="IC10" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="IC11" pin="9" pinfunction="A2" pintype="passive"/>
+      <node ref="IC12" pin="9" pinfunction="A2" pintype="passive"/>
+      <node ref="IC13" pin="9" pinfunction="A2" pintype="passive"/>
+      <node ref="IC14" pin="9" pinfunction="A2" pintype="passive"/>
+      <node ref="IC15" pin="9" pinfunction="A2" pintype="passive"/>
+      <node ref="IC16" pin="9" pinfunction="A2" pintype="passive"/>
+      <node ref="IC17" pin="9" pinfunction="A2" pintype="passive"/>
+      <node ref="IC18" pin="9" pinfunction="A2" pintype="passive"/>
+      <node ref="IC19" pin="9" pinfunction="A2" pintype="passive"/>
+      <node ref="IC6" pin="11" pinfunction="G" pintype="passive"/>
+      <node ref="IC6" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="IC8" pin="1" pinfunction="QA" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(IC10-Y)">
+      <node ref="IC10" pin="4" pinfunction="Y" pintype="passive"/>
+      <node ref="IC9" pin="10" pinfunction="JB" pintype="passive"/>
+      <node ref="IC9" pin="11" pinfunction="KB" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(IC11-A0)">
+      <node ref="IC11" pin="11" pinfunction="A0" pintype="passive"/>
+      <node ref="IC12" pin="11" pinfunction="A0" pintype="passive"/>
+      <node ref="IC13" pin="11" pinfunction="A0" pintype="passive"/>
+      <node ref="IC14" pin="11" pinfunction="A0" pintype="passive"/>
+      <node ref="IC15" pin="11" pinfunction="A0" pintype="passive"/>
+      <node ref="IC16" pin="11" pinfunction="A0" pintype="passive"/>
+      <node ref="IC17" pin="11" pinfunction="A0" pintype="passive"/>
+      <node ref="IC18" pin="11" pinfunction="A0" pintype="passive"/>
+      <node ref="IC19" pin="11" pinfunction="A0" pintype="passive"/>
+      <node ref="IC6" pin="9" pinfunction="E" pintype="passive"/>
+      <node ref="IC9" pin="1" pinfunction="QA" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(IC11-A1)">
+      <node ref="IC11" pin="10" pinfunction="A1" pintype="passive"/>
+      <node ref="IC12" pin="10" pinfunction="A1" pintype="passive"/>
+      <node ref="IC13" pin="10" pinfunction="A1" pintype="passive"/>
+      <node ref="IC14" pin="10" pinfunction="A1" pintype="passive"/>
+      <node ref="IC15" pin="10" pinfunction="A1" pintype="passive"/>
+      <node ref="IC16" pin="10" pinfunction="A1" pintype="passive"/>
+      <node ref="IC17" pin="10" pinfunction="A1" pintype="passive"/>
+      <node ref="IC18" pin="10" pinfunction="A1" pintype="passive"/>
+      <node ref="IC19" pin="10" pinfunction="A1" pintype="passive"/>
+      <node ref="IC6" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="IC9" pin="15" pinfunction="QB" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(IC20-A)">
+      <node ref="IC20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R48" pin="2" pintype="passive"/>
+      <node ref="SW21" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(IC20-B)">
+      <node ref="IC20" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="R47" pin="2" pintype="passive"/>
+      <node ref="SW20" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(IC20-Y)">
+      <node ref="IC20" pin="4" pinfunction="Y" pintype="passive"/>
+      <node ref="R49" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pintype="passive"/>
+      <node ref="Q3" pin="3" pintype="passive"/>
+      <node ref="Q4" pin="3" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2" pintype="passive"/>
+      <node ref="Q5" pin="3" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(Q6-Pad1)">
+      <node ref="Q6" pin="1" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(Q6-Pad2)">
+      <node ref="Q6" pin="2" pintype="passive"/>
+      <node ref="Q7" pin="3" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(Q7-Pad1)">
+      <node ref="Q7" pin="1" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(Q7-Pad2)">
+      <node ref="Q7" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(Q8-Pad1)">
+      <node ref="Q8" pin="1" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(Q8-Pad2)">
+      <node ref="Q8" pin="2" pintype="passive"/>
+      <node ref="Q9" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(Q9-Pad1)">
+      <node ref="Q9" pin="1" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(Q10-Pad1)">
+      <node ref="Q10" pin="1" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(Q11-Pad1)">
+      <node ref="Q11" pin="1" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(Q11-Pad3)">
+      <node ref="Q11" pin="3" pintype="passive"/>
+      <node ref="Q12" pin="2" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(Q12-Pad1)">
+      <node ref="Q12" pin="1" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(Q12-Pad3)">
+      <node ref="Q12" pin="3" pintype="passive"/>
+      <node ref="Q13" pin="3" pintype="passive"/>
+      <node ref="Q14" pin="3" pintype="passive"/>
+      <node ref="R45" pin="2" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(Q13-Pad1)">
+      <node ref="Q13" pin="1" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(Q14-Pad1)">
+      <node ref="Q14" pin="1" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="SW9" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="SW10" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(R20-Pad2)">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="SW11" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(R21-Pad2)">
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="SW12" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="SW13" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(R23-Pad2)">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="SW14" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(R34-Pad2)">
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="SW15" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(R39-Pad2)">
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="SW18" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(R40-Pad2)">
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="SW19" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(VR1-WIPER)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="VR1" pin="2" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="84" name="unconnected-(DS1-COM_A-Pad11)">
+      <node ref="DS1" pin="11" pinfunction="COM_A" pintype="passive"/>
+    </net>
+    <net code="85" name="unconnected-(DS1-K_DP-Pad12)">
+      <node ref="DS1" pin="12" pinfunction="K_DP" pintype="passive"/>
+    </net>
+    <net code="86" name="unconnected-(IC1-~{Q}-Pad3)">
+      <node ref="IC1" pin="3" pinfunction="~{Q}" pintype="passive"/>
+    </net>
+    <net code="87" name="unconnected-(IC2-CB-Pad13)">
+      <node ref="IC2" pin="13" pinfunction="CB" pintype="passive"/>
+    </net>
+    <net code="88" name="unconnected-(IC2-JB-Pad10)">
+      <node ref="IC2" pin="10" pinfunction="JB" pintype="passive"/>
+    </net>
+    <net code="89" name="unconnected-(IC2-KB-Pad11)">
+      <node ref="IC2" pin="11" pinfunction="KB" pintype="passive"/>
+    </net>
+    <net code="90" name="unconnected-(IC2-QB-Pad15)">
+      <node ref="IC2" pin="15" pinfunction="QB" pintype="passive"/>
+    </net>
+    <net code="91" name="unconnected-(IC2-RB-Pad12)">
+      <node ref="IC2" pin="12" pinfunction="RB" pintype="passive"/>
+    </net>
+    <net code="92" name="unconnected-(IC2-SB-Pad9)">
+      <node ref="IC2" pin="9" pinfunction="SB" pintype="passive"/>
+    </net>
+    <net code="93" name="unconnected-(IC2-~{QA}-Pad2)">
+      <node ref="IC2" pin="2" pinfunction="~{QA}" pintype="passive"/>
+    </net>
+    <net code="94" name="unconnected-(IC2-~{QB}-Pad14)">
+      <node ref="IC2" pin="14" pinfunction="~{QB}" pintype="passive"/>
+    </net>
+    <net code="95" name="unconnected-(IC4-NC-Pad13)">
+      <node ref="IC4" pin="13" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(IC4-Q1-Pad9)">
+      <node ref="IC4" pin="9" pinfunction="Q1" pintype="passive"/>
+    </net>
+    <net code="97" name="unconnected-(IC4-Q2-Pad10)">
+      <node ref="IC4" pin="10" pinfunction="Q2" pintype="passive"/>
+    </net>
+    <net code="98" name="unconnected-(IC4-Q3-Pad1)">
+      <node ref="IC4" pin="1" pinfunction="Q3" pintype="passive"/>
+    </net>
+    <net code="99" name="unconnected-(IC4-R1-Pad7)">
+      <node ref="IC4" pin="7" pinfunction="R1" pintype="passive"/>
+    </net>
+    <net code="100" name="unconnected-(IC4-R2-Pad11)">
+      <node ref="IC4" pin="11" pinfunction="R2" pintype="passive"/>
+    </net>
+    <net code="101" name="unconnected-(IC4-R3-Pad15)">
+      <node ref="IC4" pin="15" pinfunction="R3" pintype="passive"/>
+    </net>
+    <net code="102" name="unconnected-(IC4-S1-Pad6)">
+      <node ref="IC4" pin="6" pinfunction="S1" pintype="passive"/>
+    </net>
+    <net code="103" name="unconnected-(IC4-S2-Pad12)">
+      <node ref="IC4" pin="12" pinfunction="S2" pintype="passive"/>
+    </net>
+    <net code="104" name="unconnected-(IC4-S3-Pad14)">
+      <node ref="IC4" pin="14" pinfunction="S3" pintype="passive"/>
+    </net>
+    <net code="105" name="unconnected-(IC5-CB-Pad13)">
+      <node ref="IC5" pin="13" pinfunction="CB" pintype="passive"/>
+    </net>
+    <net code="106" name="unconnected-(IC5-JB-Pad10)">
+      <node ref="IC5" pin="10" pinfunction="JB" pintype="passive"/>
+    </net>
+    <net code="107" name="unconnected-(IC5-KB-Pad11)">
+      <node ref="IC5" pin="11" pinfunction="KB" pintype="passive"/>
+    </net>
+    <net code="108" name="unconnected-(IC5-QB-Pad15)">
+      <node ref="IC5" pin="15" pinfunction="QB" pintype="passive"/>
+    </net>
+    <net code="109" name="unconnected-(IC5-RB-Pad12)">
+      <node ref="IC5" pin="12" pinfunction="RB" pintype="passive"/>
+    </net>
+    <net code="110" name="unconnected-(IC5-SB-Pad9)">
+      <node ref="IC5" pin="9" pinfunction="SB" pintype="passive"/>
+    </net>
+    <net code="111" name="unconnected-(IC5-~{QA}-Pad2)">
+      <node ref="IC5" pin="2" pinfunction="~{QA}" pintype="passive"/>
+    </net>
+    <net code="112" name="unconnected-(IC5-~{QB}-Pad14)">
+      <node ref="IC5" pin="14" pinfunction="~{QB}" pintype="passive"/>
+    </net>
+    <net code="113" name="unconnected-(IC6-A-Pad5)">
+      <node ref="IC6" pin="5" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="114" name="unconnected-(IC6-H-Pad12)">
+      <node ref="IC6" pin="12" pinfunction="H" pintype="passive"/>
+    </net>
+    <net code="115" name="unconnected-(IC6-NC_1-Pad6)">
+      <node ref="IC6" pin="6" pinfunction="NC_1" pintype="passive"/>
+    </net>
+    <net code="116" name="unconnected-(IC6-NC_2-Pad8)">
+      <node ref="IC6" pin="8" pinfunction="NC_2" pintype="passive"/>
+    </net>
+    <net code="117" name="unconnected-(IC8-CB-Pad13)">
+      <node ref="IC8" pin="13" pinfunction="CB" pintype="passive"/>
+    </net>
+    <net code="118" name="unconnected-(IC8-JB-Pad10)">
+      <node ref="IC8" pin="10" pinfunction="JB" pintype="passive"/>
+    </net>
+    <net code="119" name="unconnected-(IC8-KB-Pad11)">
+      <node ref="IC8" pin="11" pinfunction="KB" pintype="passive"/>
+    </net>
+    <net code="120" name="unconnected-(IC8-QB-Pad15)">
+      <node ref="IC8" pin="15" pinfunction="QB" pintype="passive"/>
+    </net>
+    <net code="121" name="unconnected-(IC8-RB-Pad12)">
+      <node ref="IC8" pin="12" pinfunction="RB" pintype="passive"/>
+    </net>
+    <net code="122" name="unconnected-(IC8-SB-Pad9)">
+      <node ref="IC8" pin="9" pinfunction="SB" pintype="passive"/>
+    </net>
+    <net code="123" name="unconnected-(IC8-VDD-Pad16)">
+      <node ref="IC8" pin="16" pinfunction="VDD" pintype="passive"/>
+    </net>
+    <net code="124" name="unconnected-(IC8-~{QA}-Pad2)">
+      <node ref="IC8" pin="2" pinfunction="~{QA}" pintype="passive"/>
+    </net>
+    <net code="125" name="unconnected-(IC8-~{QB}-Pad14)">
+      <node ref="IC8" pin="14" pinfunction="~{QB}" pintype="passive"/>
+    </net>
+    <net code="126" name="unconnected-(IC10-NC-Pad5)">
+      <node ref="IC10" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="127" name="unconnected-(IC12-S2-Pad15)">
+      <node ref="IC12" pin="15" pinfunction="S2" pintype="passive"/>
+    </net>
+    <net code="128" name="unconnected-(IC12-S3-Pad12)">
+      <node ref="IC12" pin="12" pinfunction="S3" pintype="passive"/>
+    </net>
+    <net code="129" name="unconnected-(IC12-S5-Pad5)">
+      <node ref="IC12" pin="5" pinfunction="S5" pintype="passive"/>
+    </net>
+    <net code="130" name="unconnected-(IC12-S6-Pad2)">
+      <node ref="IC12" pin="2" pinfunction="S6" pintype="passive"/>
+    </net>
+    <net code="131" name="unconnected-(IC12-S7-Pad4)">
+      <node ref="IC12" pin="4" pinfunction="S7" pintype="passive"/>
+    </net>
+    <net code="132" name="unconnected-(IC13-S3-Pad12)">
+      <node ref="IC13" pin="12" pinfunction="S3" pintype="passive"/>
+    </net>
+    <net code="133" name="unconnected-(IC13-S5-Pad5)">
+      <node ref="IC13" pin="5" pinfunction="S5" pintype="passive"/>
+    </net>
+    <net code="134" name="unconnected-(IC13-S6-Pad2)">
+      <node ref="IC13" pin="2" pinfunction="S6" pintype="passive"/>
+    </net>
+    <net code="135" name="unconnected-(IC13-S7-Pad4)">
+      <node ref="IC13" pin="4" pinfunction="S7" pintype="passive"/>
+    </net>
+    <net code="136" name="unconnected-(IC14-S0-Pad13)">
+      <node ref="IC14" pin="13" pinfunction="S0" pintype="passive"/>
+    </net>
+    <net code="137" name="unconnected-(IC14-S1-Pad14)">
+      <node ref="IC14" pin="14" pinfunction="S1" pintype="passive"/>
+    </net>
+    <net code="138" name="unconnected-(IC14-S3-Pad12)">
+      <node ref="IC14" pin="12" pinfunction="S3" pintype="passive"/>
+    </net>
+    <net code="139" name="unconnected-(IC14-S4-Pad1)">
+      <node ref="IC14" pin="1" pinfunction="S4" pintype="passive"/>
+    </net>
+    <net code="140" name="unconnected-(IC14-S6-Pad2)">
+      <node ref="IC14" pin="2" pinfunction="S6" pintype="passive"/>
+    </net>
+    <net code="141" name="unconnected-(IC14-S7-Pad4)">
+      <node ref="IC14" pin="4" pinfunction="S7" pintype="passive"/>
+    </net>
+    <net code="142" name="unconnected-(IC15-S0-Pad13)">
+      <node ref="IC15" pin="13" pinfunction="S0" pintype="passive"/>
+    </net>
+    <net code="143" name="unconnected-(IC15-S1-Pad14)">
+      <node ref="IC15" pin="14" pinfunction="S1" pintype="passive"/>
+    </net>
+    <net code="144" name="unconnected-(IC15-S2-Pad15)">
+      <node ref="IC15" pin="15" pinfunction="S2" pintype="passive"/>
+    </net>
+    <net code="145" name="unconnected-(IC15-S4-Pad1)">
+      <node ref="IC15" pin="1" pinfunction="S4" pintype="passive"/>
+    </net>
+    <net code="146" name="unconnected-(IC15-S5-Pad5)">
+      <node ref="IC15" pin="5" pinfunction="S5" pintype="passive"/>
+    </net>
+    <net code="147" name="unconnected-(IC15-S6-Pad2)">
+      <node ref="IC15" pin="2" pinfunction="S6" pintype="passive"/>
+    </net>
+    <net code="148" name="unconnected-(IC15-S7-Pad4)">
+      <node ref="IC15" pin="4" pinfunction="S7" pintype="passive"/>
+    </net>
+    <net code="149" name="unconnected-(IC16-S0-Pad13)">
+      <node ref="IC16" pin="13" pinfunction="S0" pintype="passive"/>
+    </net>
+    <net code="150" name="unconnected-(IC16-S1-Pad14)">
+      <node ref="IC16" pin="14" pinfunction="S1" pintype="passive"/>
+    </net>
+    <net code="151" name="unconnected-(IC16-S2-Pad15)">
+      <node ref="IC16" pin="15" pinfunction="S2" pintype="passive"/>
+    </net>
+    <net code="152" name="unconnected-(IC16-S3-Pad12)">
+      <node ref="IC16" pin="12" pinfunction="S3" pintype="passive"/>
+    </net>
+    <net code="153" name="unconnected-(IC16-S4-Pad1)">
+      <node ref="IC16" pin="1" pinfunction="S4" pintype="passive"/>
+    </net>
+    <net code="154" name="unconnected-(IC16-S6-Pad2)">
+      <node ref="IC16" pin="2" pinfunction="S6" pintype="passive"/>
+    </net>
+    <net code="155" name="unconnected-(IC16-S7-Pad4)">
+      <node ref="IC16" pin="4" pinfunction="S7" pintype="passive"/>
+    </net>
+    <net code="156" name="unconnected-(IC17-S0-Pad13)">
+      <node ref="IC17" pin="13" pinfunction="S0" pintype="passive"/>
+    </net>
+    <net code="157" name="unconnected-(IC17-S2-Pad15)">
+      <node ref="IC17" pin="15" pinfunction="S2" pintype="passive"/>
+    </net>
+    <net code="158" name="unconnected-(IC17-S3-Pad12)">
+      <node ref="IC17" pin="12" pinfunction="S3" pintype="passive"/>
+    </net>
+    <net code="159" name="unconnected-(IC17-S5-Pad5)">
+      <node ref="IC17" pin="5" pinfunction="S5" pintype="passive"/>
+    </net>
+    <net code="160" name="unconnected-(IC17-S6-Pad2)">
+      <node ref="IC17" pin="2" pinfunction="S6" pintype="passive"/>
+    </net>
+    <net code="161" name="unconnected-(IC17-S7-Pad4)">
+      <node ref="IC17" pin="4" pinfunction="S7" pintype="passive"/>
+    </net>
+    <net code="162" name="unconnected-(VR1-CCW-Pad1)">
+      <node ref="VR1" pin="1" pinfunction="CCW" pintype="passive"/>
+    </net>
+  </nets>
+</export>
