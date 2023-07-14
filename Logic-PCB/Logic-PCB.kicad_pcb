@@ -5277,7 +5277,7 @@
 
   (footprint "SamacSys_Parts:PSA0811GWA" (layer "F.Cu")
     (tstamp 8f4a33ca-c0ea-4d25-9f05-eaccab243950)
-    (at 139.11 129.54)
+    (at 139.344 129.413)
     (descr "PSA08-11GWA-1")
     (tags "Display")
     (property "Arrow Part Number" "")
