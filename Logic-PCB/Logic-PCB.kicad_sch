@@ -2787,6 +2787,7 @@
   (no_connect (at 74.422 97.536) (uuid 381aa6ae-29cc-45bc-a195-21ad73aa90b9))
   (no_connect (at 131.572 74.676) (uuid 536a45a5-22fd-40b4-a4fe-e8c50f4f874f))
   (no_connect (at 164.592 87.376) (uuid 5457e010-04f8-44f6-89c5-161e8680865d))
+  (no_connect (at 313.182 96.266) (uuid 5753061c-2444-4196-afa9-4046c1d62923))
   (no_connect (at 132.842 168.656) (uuid 78b8c6d0-e9fa-4b55-87a0-d589c3cb7df4))
   (no_connect (at 164.592 97.536) (uuid 826cae87-4faa-427a-a4ed-f1066808ae31))
   (no_connect (at 164.592 92.456) (uuid 848f3dec-51e1-439e-a4d2-5e1b6a9cd1c4))
@@ -4146,10 +4147,6 @@
   (wire (pts (xy 572.262 260.096) (xy 572.262 183.896))
     (stroke (width 0) (type default))
     (uuid d89a32f4-53ed-4629-8c54-9751fb6b2a69)
-  )
-  (wire (pts (xy 313.182 96.266) (xy 325.12 96.266))
-    (stroke (width 0) (type default))
-    (uuid d8b299bb-fef6-4445-8348-81972355b09c)
   )
   (wire (pts (xy 405.384 211.328) (xy 405.384 222.758))
     (stroke (width 0) (type default))
@@ -7955,42 +7952,6 @@
     )
   )
 
-  (symbol (lib_id "Device:LED") (at 325.12 84.836 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3896a4d7-9c0d-4054-94ef-61aa31a4bef0)
-    (property "Reference" "D2" (at 321.31 84.5185 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "LED" (at 321.31 81.9785 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "LED_SMD:LED_0402_1005Metric" (at 325.12 84.836 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 325.12 84.836 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f291eb5f-ccad-4e45-9ed0-23038e7120de))
-    (pin "2" (uuid 844b32eb-f78f-4da6-b5f6-2e89b000eb72))
-    (instances
-      (project "Logi-PCB-2"
-        (path "/4826693f-0a14-47f3-8ca1-fd74785177a0"
-          (reference "D2") (unit 1)
-        )
-      )
-      (project "Logic-PCB"
-        (path "/da0a227d-8c5e-40bd-9f97-ddcba2042b7f"
-          (reference "D1") (unit 1)
-        )
-      )
-      (project "Logic-PCB"
-        (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "D22") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 498.602 235.966 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3943784e-e1bc-410b-8e17-643b4153d33b)
@@ -10244,41 +10205,6 @@
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
           (reference "#PWR014") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 325.12 81.026 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 76fc437b-f12c-405a-9837-9533b89d1b0e)
-    (property "Reference" "#PWR014" (at 325.12 74.676 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 325.12 75.946 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 325.12 81.026 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 325.12 81.026 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1d5d4f36-393f-45b7-bcac-752474e44c0c))
-    (instances
-      (project "Logi-PCB-2"
-        (path "/4826693f-0a14-47f3-8ca1-fd74785177a0"
-          (reference "#PWR014") (unit 1)
-        )
-      )
-      (project "Logic-PCB"
-        (path "/da0a227d-8c5e-40bd-9f97-ddcba2042b7f"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-      (project "Logic-PCB"
-        (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -15810,42 +15736,6 @@
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
           (reference "#PWR080") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 325.12 92.456 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d2485da6-20ea-4e13-ac72-e377bca12a3a)
-    (property "Reference" "R2" (at 322.58 93.726 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "100" (at 322.58 91.186 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 323.342 92.456 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 325.12 92.456 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e8063e31-a99e-4669-a9c4-7e7d69fb216b))
-    (pin "2" (uuid 3eca5e5e-e143-4feb-b4c2-46a096a58462))
-    (instances
-      (project "Logi-PCB-2"
-        (path "/4826693f-0a14-47f3-8ca1-fd74785177a0"
-          (reference "R2") (unit 1)
-        )
-      )
-      (project "Logic-PCB"
-        (path "/da0a227d-8c5e-40bd-9f97-ddcba2042b7f"
-          (reference "R1") (unit 1)
-        )
-      )
-      (project "Logic-PCB"
-        (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "R49") (unit 1)
         )
       )
     )
