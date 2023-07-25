@@ -13559,7 +13559,7 @@
     (property "Value" "~" (at 143.256 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 143.256 81.28 0)
+    (property "Footprint" "Connector:USB-C UJC-HP-G-5-SMT-TR" (at 143.256 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 143.256 81.28 0)
