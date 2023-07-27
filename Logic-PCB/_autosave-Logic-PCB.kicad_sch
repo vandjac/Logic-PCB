@@ -16658,7 +16658,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "D10") (unit 1)
+          (reference "#D10") (unit 1)
         )
       )
     )
