@@ -1,1 +1,11 @@
-Warning: Width correction constrained.  The width correction value must be in the range of [0.000001 mm; 0.199999 mm] for the current design rules.
+Plotted to 'C:\Users\Luke.Jensen\OneDrive - Gentex Corporation\Documents\GitHub\Logic-PCB\Logic-PCB\Logic-PCB-F_Cu.gbr'.
+Plotted to 'C:\Users\Luke.Jensen\OneDrive - Gentex Corporation\Documents\GitHub\Logic-PCB\Logic-PCB\Logic-PCB-B_Cu.gbr'.
+Plotted to 'C:\Users\Luke.Jensen\OneDrive - Gentex Corporation\Documents\GitHub\Logic-PCB\Logic-PCB\Logic-PCB-F_Paste.gbr'.
+Plotted to 'C:\Users\Luke.Jensen\OneDrive - Gentex Corporation\Documents\GitHub\Logic-PCB\Logic-PCB\Logic-PCB-B_Paste.gbr'.
+Plotted to 'C:\Users\Luke.Jensen\OneDrive - Gentex Corporation\Documents\GitHub\Logic-PCB\Logic-PCB\Logic-PCB-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\Luke.Jensen\OneDrive - Gentex Corporation\Documents\GitHub\Logic-PCB\Logic-PCB\Logic-PCB-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\Luke.Jensen\OneDrive - Gentex Corporation\Documents\GitHub\Logic-PCB\Logic-PCB\Logic-PCB-F_Mask.gbr'.
+Plotted to 'C:\Users\Luke.Jensen\OneDrive - Gentex Corporation\Documents\GitHub\Logic-PCB\Logic-PCB\Logic-PCB-B_Mask.gbr'.
+Plotted to 'C:\Users\Luke.Jensen\OneDrive - Gentex Corporation\Documents\GitHub\Logic-PCB\Logic-PCB\Logic-PCB-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\Luke.Jensen\OneDrive - Gentex Corporation\Documents\GitHub\Logic-PCB\Logic-PCB\Logic-PCB-job.gbrjob'.
+Info: Done.
