@@ -8,8 +8,10 @@
 ## General Info
 ***
 This is a quick turn promotional PCB made as an intern project for Gentex Corporation. It showcases digital logic concepts in an interactive format, and will be a useful reference for students studying digital electronics.
-### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
+## Images
+***
+![Logic-PCB-Front](https://github.com/vandjac/Logic-PCB/assets/32146550/ab503c88-e459-450d-a51a-90765530fc27)
+![Logic-PCB-Back](https://github.com/vandjac/Logic-PCB/assets/32146550/ad24acc0-1959-43f1-9e4e-f1a138fb714e)
 ## Design Requirements
 ***
 #### Boolean Logic
