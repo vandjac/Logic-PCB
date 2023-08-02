@@ -2496,7 +2496,7 @@
   (junction (at 447.802 225.806) (diameter 0) (color 0 0 0 0)
     (uuid 7f8ee078-1794-4345-b396-0ed0035c00c4)
   )
-  (junction (at 147.066 344.17) (diameter 0) (color 0 0 0 0)
+  (junction (at 147.828 343.662) (diameter 0) (color 0 0 0 0)
     (uuid 82348663-b2ae-4dfc-92df-353f6dbe9c7c)
   )
   (junction (at 75.692 154.686) (diameter 0) (color 0 0 0 0)
@@ -2556,7 +2556,7 @@
   (junction (at 389.382 143.256) (diameter 0) (color 0 0 0 0)
     (uuid b3f58786-beed-41a7-97bd-a9e6b851834d)
   )
-  (junction (at 133.858 323.596) (diameter 0) (color 0 0 0 0)
+  (junction (at 134.62 323.088) (diameter 0) (color 0 0 0 0)
     (uuid b64c5412-0d02-48ae-9975-a06b6780da8c)
   )
   (junction (at 221.742 36.576) (diameter 0) (color 0 0 0 0)
@@ -2577,7 +2577,7 @@
   (junction (at 447.802 98.806) (diameter 0) (color 0 0 0 0)
     (uuid c5414695-8d97-4d59-aed4-29754044cf3e)
   )
-  (junction (at 147.066 323.596) (diameter 0) (color 0 0 0 0)
+  (junction (at 147.828 323.088) (diameter 0) (color 0 0 0 0)
     (uuid caf5c2f2-fd34-462c-8767-39b75056e91b)
   )
   (junction (at 146.812 130.556) (diameter 0) (color 0 0 0 0)
@@ -2619,7 +2619,7 @@
   (junction (at 518.922 164.846) (diameter 0) (color 0 0 0 0)
     (uuid ec773639-dd8b-42d7-b678-73928168a906)
   )
-  (junction (at 133.858 344.17) (diameter 0) (color 0 0 0 0)
+  (junction (at 134.62 343.662) (diameter 0) (color 0 0 0 0)
     (uuid ed8e82f4-e24d-4346-ae88-500b43657acb)
   )
   (junction (at 74.422 37.846) (diameter 0) (color 0 0 0 0)
@@ -2797,11 +2797,11 @@
     (stroke (width 0) (type default))
     (uuid 1637ce40-003c-48cc-953a-046e85ef8965)
   )
-  (wire (pts (xy 133.858 344.17) (xy 147.066 344.17))
+  (wire (pts (xy 134.62 343.662) (xy 147.828 343.662))
     (stroke (width 0) (type default))
     (uuid 16aa4093-0fce-407f-beef-311944f61db6)
   )
-  (wire (pts (xy 121.158 315.214) (xy 122.428 315.214))
+  (wire (pts (xy 121.92 314.706) (xy 123.19 314.706))
     (stroke (width 0) (type default))
     (uuid 16b94e00-e0ba-4afb-9b6b-04a8bb31d4ed)
   )
@@ -2865,7 +2865,7 @@
     (stroke (width 0) (type default))
     (uuid 1ea1c54d-f216-42f6-bbf4-01654597efe4)
   )
-  (wire (pts (xy 147.066 308.102) (xy 152.4 308.102))
+  (wire (pts (xy 147.828 307.594) (xy 153.162 307.594))
     (stroke (width 0) (type default))
     (uuid 1ec01ea1-c513-46bb-b99d-ddcbbce2e6f9)
   )
@@ -2889,7 +2889,7 @@
     (stroke (width 0) (type default))
     (uuid 257c64b3-a8fa-4639-9c09-b6934efdab0a)
   )
-  (wire (pts (xy 147.066 328.93) (xy 147.066 323.596))
+  (wire (pts (xy 147.828 328.422) (xy 147.828 323.088))
     (stroke (width 0) (type default))
     (uuid 26732545-625b-4a32-99dd-fc8d736c89d8)
   )
@@ -2993,11 +2993,11 @@
     (stroke (width 0) (type default))
     (uuid 3165a8bb-40e8-4d38-b358-e3adb4eb2c9b)
   )
-  (wire (pts (xy 112.268 339.09) (xy 113.284 339.09))
+  (wire (pts (xy 113.03 338.582) (xy 114.046 338.582))
     (stroke (width 0) (type default))
     (uuid 31a1aba2-2210-4317-bdda-afc41f5cf23f)
   )
-  (wire (pts (xy 152.4 308.102) (xy 152.4 344.17))
+  (wire (pts (xy 153.162 307.594) (xy 153.162 343.662))
     (stroke (width 0) (type default))
     (uuid 33cbdf77-73f4-4cb6-952a-edc5238b86b7)
   )
@@ -3017,7 +3017,7 @@
     (stroke (width 0) (type default))
     (uuid 355c333c-27d3-4df8-8067-3a131718d4de)
   )
-  (wire (pts (xy 122.428 333.756) (xy 126.238 333.756))
+  (wire (pts (xy 123.19 333.248) (xy 127 333.248))
     (stroke (width 0) (type default))
     (uuid 3575330e-5555-44ff-8cfb-15d2f7efaf66)
   )
@@ -3041,7 +3041,7 @@
     (stroke (width 0) (type default))
     (uuid 3792f0c6-0f94-4d6e-b31f-99f02bc87deb)
   )
-  (wire (pts (xy 112.268 315.214) (xy 113.538 315.214))
+  (wire (pts (xy 113.03 314.706) (xy 114.3 314.706))
     (stroke (width 0) (type default))
     (uuid 37bc7553-5c1f-4a0e-9141-5a19d3af7ab9)
   )
@@ -3065,7 +3065,7 @@
     (stroke (width 0) (type default))
     (uuid 3b5fe2df-b2d3-4933-9714-4d4bfbfc97ad)
   )
-  (wire (pts (xy 113.538 318.516) (xy 112.268 318.516))
+  (wire (pts (xy 114.3 318.008) (xy 113.03 318.008))
     (stroke (width 0) (type default))
     (uuid 3c084b1b-7b85-4118-b55d-457f857222e2)
   )
@@ -3077,7 +3077,7 @@
     (stroke (width 0) (type default))
     (uuid 3d0187ac-abcb-4139-9c1a-340d90f889ba)
   )
-  (wire (pts (xy 133.858 323.596) (xy 147.066 323.596))
+  (wire (pts (xy 134.62 323.088) (xy 147.828 323.088))
     (stroke (width 0) (type default))
     (uuid 3e1e6254-f2b7-4db4-9c61-ebd77ec7fc32)
   )
@@ -3141,7 +3141,7 @@
     (stroke (width 0) (type default))
     (uuid 4853c04d-1781-4af6-8c2b-1c35b3a103dc)
   )
-  (wire (pts (xy 112.268 303.276) (xy 112.268 315.214))
+  (wire (pts (xy 113.03 302.768) (xy 113.03 314.706))
     (stroke (width 0) (type default))
     (uuid 48a4d137-5222-4d45-b661-04000cb5b7e7)
   )
@@ -3177,7 +3177,7 @@
     (stroke (width 0) (type default))
     (uuid 4d0f5892-e93b-4438-b1e4-8602ed930e26)
   )
-  (wire (pts (xy 121.158 318.516) (xy 126.238 318.516))
+  (wire (pts (xy 121.92 318.008) (xy 127 318.008))
     (stroke (width 0) (type default))
     (uuid 4e8a81b7-81e8-41d5-a8e4-fcd54dcef0bb)
   )
@@ -3329,7 +3329,7 @@
     (stroke (width 0) (type default))
     (uuid 6c4858eb-60ca-48b9-9822-5dba2cb99792)
   )
-  (wire (pts (xy 112.268 318.516) (xy 112.268 339.09))
+  (wire (pts (xy 113.03 318.008) (xy 113.03 338.582))
     (stroke (width 0) (type default))
     (uuid 6e9ef1cc-e2a4-46ab-b71c-57e1e4d415b5)
   )
@@ -3425,7 +3425,7 @@
     (stroke (width 0) (type default))
     (uuid 7fa3f6e5-52db-4d5b-a3bd-6e0246d3bb40)
   )
-  (wire (pts (xy 133.858 292.862) (xy 133.858 293.116))
+  (wire (pts (xy 134.62 292.354) (xy 134.62 292.608))
     (stroke (width 0) (type default))
     (uuid 80825165-cc4e-4add-ba3a-ccd04f71731b)
   )
@@ -3485,7 +3485,7 @@
     (stroke (width 0) (type default))
     (uuid 8d6a753d-2ce9-477c-8936-070faa3209d6)
   )
-  (wire (pts (xy 113.284 303.276) (xy 112.268 303.276))
+  (wire (pts (xy 114.046 302.768) (xy 113.03 302.768))
     (stroke (width 0) (type default))
     (uuid 8dc4ea68-6d77-4f2d-9dde-651d9f8f1ef3)
   )
@@ -3645,7 +3645,7 @@
     (stroke (width 0) (type default))
     (uuid a6022176-8d9d-40ae-9b62-42c5222b020f)
   )
-  (wire (pts (xy 133.858 344.17) (xy 133.858 338.836))
+  (wire (pts (xy 134.62 343.662) (xy 134.62 338.328))
     (stroke (width 0) (type default))
     (uuid a6a59bb9-51c8-4e39-a2c4-3696842b51b8)
   )
@@ -3781,7 +3781,7 @@
     (stroke (width 0) (type default))
     (uuid bd66fea5-4332-4e17-9d98-93c28f40d080)
   )
-  (wire (pts (xy 147.066 344.17) (xy 152.4 344.17))
+  (wire (pts (xy 147.828 343.662) (xy 153.162 343.662))
     (stroke (width 0) (type default))
     (uuid be288358-124c-4338-8f7f-1f5b257f5535)
   )
@@ -3821,7 +3821,7 @@
     (stroke (width 0) (type default))
     (uuid c3f1899b-0f3b-421c-8281-caae347ba8fd)
   )
-  (wire (pts (xy 120.904 303.276) (xy 126.238 303.276))
+  (wire (pts (xy 121.666 302.768) (xy 127 302.768))
     (stroke (width 0) (type default))
     (uuid c49e9caf-9efe-4897-8660-76ad3bbcb56f)
   )
@@ -3993,7 +3993,7 @@
     (stroke (width 0) (type default))
     (uuid e04e04e0-0cd7-4eb2-8d74-dce26cb3b451)
   )
-  (wire (pts (xy 122.428 315.214) (xy 122.428 333.756))
+  (wire (pts (xy 123.19 314.706) (xy 123.19 333.248))
     (stroke (width 0) (type default))
     (uuid e2377b1b-14c2-4dac-8cc6-e14af7276e13)
   )
@@ -4029,7 +4029,7 @@
     (stroke (width 0) (type default))
     (uuid e6f81ea9-d91d-4785-932f-62e3fb4626be)
   )
-  (wire (pts (xy 120.904 339.09) (xy 139.446 339.09))
+  (wire (pts (xy 121.666 338.582) (xy 140.208 338.582))
     (stroke (width 0) (type default))
     (uuid e84050bc-bce2-4a20-a8f4-5535d70a80cf)
   )
@@ -4157,7 +4157,7 @@
     (stroke (width 0) (type default))
     (uuid fcc3110e-1840-4aa6-8274-b8980d32e9a9)
   )
-  (wire (pts (xy 147.066 323.342) (xy 147.066 323.596))
+  (wire (pts (xy 147.828 322.834) (xy 147.828 323.088))
     (stroke (width 0) (type default))
     (uuid fd422dc4-9d2c-4dc2-b344-1d302a4acdb2)
   )
@@ -4178,7 +4178,7 @@
     (uuid ff7ef816-31da-4547-9611-9ff04a08fba8)
   )
 
-  (rectangle (start 16.764 196.088) (end 178.054 347.726)
+  (rectangle (start 17.907 196.85) (end 179.197 348.488)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid 1adf9e2b-4e14-4eaa-be95-f002994607a3)
@@ -4373,7 +4373,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cf514509-215e-469d-b120-204c689204be)
   )
-  (text "CMOS NOR Gate" (at 111.252 289.052 0)
+  (text "CMOS NOR Gate" (at 111.379 289.179 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d2af29ae-4f98-4d9b-ab39-655a9464f2e9)
   )
@@ -4506,10 +4506,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "Button B" (shape input) (at 112.268 327.66 180) (fields_autoplaced)
+  (global_label "Button B" (shape input) (at 113.03 327.152 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 70252146-0e2d-4fd9-8d5d-1c9aebe67f08)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 100.9562 327.66 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 101.7182 327.152 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -4590,10 +4590,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "Button A" (shape input) (at 112.268 308.102 180) (fields_autoplaced)
+  (global_label "Button A" (shape input) (at 113.03 307.594 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f1a76758-96e5-4759-94ab-9f854cb8a5df)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 101.1376 308.102 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 101.8996 307.594 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -4752,7 +4752,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
       )
     )
@@ -4859,7 +4859,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
       )
     )
@@ -4924,7 +4924,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0211") (unit 1)
         )
       )
     )
@@ -5156,7 +5156,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -5325,7 +5325,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
       )
     )
@@ -5366,23 +5366,23 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 147.066 319.532 0) (unit 1)
+  (symbol (lib_id "Device:R") (at 147.828 319.024 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08a4c0b4-6284-4d88-8c0b-0667529ca53c)
-    (property "Reference" "R43" (at 152.146 320.04 0)
+    (property "Reference" "R43" (at 152.908 319.532 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "100" (at 152.273 317.881 0)
+    (property "Value" "100" (at 153.035 317.373 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 145.288 319.532 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 146.05 319.024 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 147.066 319.532 0)
+    (property "Datasheet" "~" (at 147.828 319.024 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8f91f27a-31ae-481b-b04f-2cf547f71482))
-    (pin "2" (uuid 10523a8d-9f04-49d2-8348-7c8b8c496b70))
+    (pin "1" (uuid 818ba57d-29f9-4790-8f99-0a4859900c23))
+    (pin "2" (uuid 72fec352-91ae-46ad-8422-29f873153e07))
     (instances
       (project "Logi-PCB-2"
         (path "/4826693f-0a14-47f3-8ca1-fd74785177a0"
@@ -5437,48 +5437,48 @@
     )
   )
 
-  (symbol (lib_id "SamacSys_Parts:2N7002_HAMR") (at 139.446 339.09 0) (unit 1)
+  (symbol (lib_id "SamacSys_Parts:2N7002_HAMR") (at 140.208 338.582 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 094dda36-c696-43e4-9203-a7e34d84b511)
-    (property "Reference" "Q12" (at 153.035 335.28 0)
+    (property "Reference" "Q12" (at 153.797 334.772 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2N7002_HAMR" (at 153.035 337.82 0)
+    (property "Value" "2N7002_HAMR" (at 153.797 337.312 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "SamacSys_Parts:2N7002HAMR" (at 150.876 340.36 0)
+    (property "Footprint" "SamacSys_Parts:2N7002HAMR" (at 151.638 339.852 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf" (at 150.876 342.9 0)
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf" (at 151.638 342.392 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Description" "60 V, 300 mA N-channel Trench MOSFET VDS:60v  ID:300 ma" (at 150.876 345.44 0)
+    (property "Description" "60 V, 300 mA N-channel Trench MOSFET VDS:60v  ID:300 ma" (at 151.638 344.932 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Height" "1.1" (at 150.876 347.98 0)
+    (property "Height" "1.1" (at 151.638 347.472 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Manufacturer_Name" "Nexperia" (at 150.876 350.52 0)
+    (property "Manufacturer_Name" "Nexperia" (at 151.638 350.012 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Manufacturer_Part_Number" "2N7002/HAMR" (at 150.876 353.06 0)
+    (property "Manufacturer_Part_Number" "2N7002/HAMR" (at 151.638 352.552 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Mouser Part Number" "771-2N7002/HAMR" (at 150.876 355.6 0)
+    (property "Mouser Part Number" "771-2N7002/HAMR" (at 151.638 355.092 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/2N7002-HAMR?qs=vLWxofP3U2z6UwzQk4y2Pw%3D%3D" (at 150.876 358.14 0)
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/2N7002-HAMR?qs=vLWxofP3U2z6UwzQk4y2Pw%3D%3D" (at 151.638 357.632 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Arrow Part Number" "2N7002/HAMR" (at 150.876 360.68 0)
+    (property "Arrow Part Number" "2N7002/HAMR" (at 151.638 360.172 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/2n7002hamr/nexperia?region=nac" (at 150.876 363.22 0)
+    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/2n7002hamr/nexperia?region=nac" (at 151.638 362.712 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid a55c2331-700f-4089-8447-a1186065c6e4))
-    (pin "2" (uuid 46dcd21b-95b4-4bd1-bd1e-3d9006c2fdc7))
-    (pin "3" (uuid 494451f2-ff7e-470f-9771-40aa7998e2b2))
+    (pin "1" (uuid df3b61e7-58ec-48e2-aff9-a24eb7b87204))
+    (pin "2" (uuid cda970bd-0298-4f25-941d-45fd862bf85f))
+    (pin "3" (uuid e87eb450-b51f-4600-bd89-d1b55e696ec9))
     (instances
       (project "Logi-PCB-2"
         (path "/4826693f-0a14-47f3-8ca1-fd74785177a0"
@@ -5522,7 +5522,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -5587,7 +5587,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0155") (unit 1)
         )
       )
     )
@@ -6001,7 +6001,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0217") (unit 1)
         )
       )
     )
@@ -6624,7 +6624,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0210") (unit 1)
         )
       )
     )
@@ -7467,7 +7467,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0209") (unit 1)
         )
       )
     )
@@ -7568,7 +7568,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0152") (unit 1)
         )
       )
     )
@@ -7696,48 +7696,48 @@
     )
   )
 
-  (symbol (lib_id "SamacSys_Parts:PMV100EPAR") (at 126.238 318.516 0) (unit 1)
+  (symbol (lib_id "SamacSys_Parts:PMV100EPAR") (at 127 318.008 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3663ed13-a07e-485e-8b1b-90faafecfe63)
-    (property "Reference" "Q10" (at 137.033 317.754 0)
+    (property "Reference" "Q10" (at 137.795 317.246 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "PMV100EPAR" (at 133.731 321.183 0)
+    (property "Value" "PMV100EPAR" (at 134.493 320.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "SamacSys_Parts:SOT95P230X110-3N" (at 137.668 319.786 0)
+    (property "Footprint" "SamacSys_Parts:SOT95P230X110-3N" (at 138.43 319.278 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV100EPA.pdf" (at 137.668 322.326 0)
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV100EPA.pdf" (at 138.43 321.818 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Description" "NEXPERIA - PMV100EPAR - Power MOSFET, P Channel, 60 V, 2.2 A, 0.1 ohm, SOT-23, Surface Mount" (at 137.668 324.866 0)
+    (property "Description" "NEXPERIA - PMV100EPAR - Power MOSFET, P Channel, 60 V, 2.2 A, 0.1 ohm, SOT-23, Surface Mount" (at 138.43 324.358 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Height" "1.1" (at 137.668 327.406 0)
+    (property "Height" "1.1" (at 138.43 326.898 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Manufacturer_Name" "Nexperia" (at 137.668 329.946 0)
+    (property "Manufacturer_Name" "Nexperia" (at 138.43 329.438 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Manufacturer_Part_Number" "PMV100EPAR" (at 137.668 332.486 0)
+    (property "Manufacturer_Part_Number" "PMV100EPAR" (at 138.43 331.978 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Mouser Part Number" "771-PMV100EPAR" (at 137.668 335.026 0)
+    (property "Mouser Part Number" "771-PMV100EPAR" (at 138.43 334.518 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMV100EPAR?qs=vmHwEFxEFR%2FYGVY%2F8WC8mQ%3D%3D" (at 137.668 337.566 0)
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMV100EPAR?qs=vmHwEFxEFR%2FYGVY%2F8WC8mQ%3D%3D" (at 138.43 337.058 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Arrow Part Number" "PMV100EPAR" (at 137.668 340.106 0)
+    (property "Arrow Part Number" "PMV100EPAR" (at 138.43 339.598 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/pmv100epar/nexperia?region=europe" (at 137.668 342.646 0)
+    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/pmv100epar/nexperia?region=europe" (at 138.43 342.138 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 816f4c31-41a7-4e3b-8762-07b88b6e9b02))
-    (pin "2" (uuid 4a0d2456-843e-48f4-a395-27ab112edbc5))
-    (pin "3" (uuid 85d7dabc-f040-4585-beaf-994949919afb))
+    (pin "1" (uuid 2b50572b-b988-4797-a838-d224928dd9d4))
+    (pin "2" (uuid f1837ecd-108d-4dbe-8eb9-563e84c765d3))
+    (pin "3" (uuid d1464017-aa17-46fa-a09a-8d364df3234f))
     (instances
       (project "Logi-PCB-2"
         (path "/4826693f-0a14-47f3-8ca1-fd74785177a0"
@@ -7811,7 +7811,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0233") (unit 1)
         )
       )
     )
@@ -7852,22 +7852,22 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 133.858 344.17 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 134.62 343.662 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a9bb39a-cde4-42bf-91c5-eba25c6d97df)
-    (property "Reference" "#PWR0201" (at 133.858 350.52 0)
+    (property "Reference" "#PWR0201" (at 134.62 350.012 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 127.254 345.948 0)
+    (property "Value" "GND" (at 128.016 345.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 133.858 344.17 0)
+    (property "Footprint" "" (at 134.62 343.662 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 133.858 344.17 0)
+    (property "Datasheet" "" (at 134.62 343.662 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cf41e417-e63f-489e-8f80-76df0c61230f))
+    (pin "1" (uuid b855d288-8f26-4dbd-a252-0f4b56687e96))
     (instances
       (project "Logi-PCB-2"
         (path "/4826693f-0a14-47f3-8ca1-fd74785177a0"
@@ -7916,7 +7916,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0173") (unit 1)
         )
       )
     )
@@ -8456,7 +8456,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0146") (unit 1)
         )
       )
     )
@@ -8486,29 +8486,29 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0230") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R") (at 117.348 318.516 90) (unit 1)
+  (symbol (lib_id "Device:R") (at 118.11 318.008 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4751d14a-db56-4f80-bb8d-d087b4dfa369)
-    (property "Reference" "R42" (at 117.348 320.802 90)
+    (property "Reference" "R42" (at 118.11 320.294 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "5.6k" (at 117.348 323.342 90)
+    (property "Value" "5.6k" (at 118.11 322.834 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 117.348 320.294 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 118.11 319.786 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 117.348 318.516 0)
+    (property "Datasheet" "~" (at 118.11 318.008 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 369cd5db-3b97-4911-bf4e-1facffb85910))
-    (pin "2" (uuid ca4d5cfc-c7a0-4762-9fce-e273155a88c8))
+    (pin "1" (uuid 5153cbd0-ae68-4180-bf87-23301a5f30de))
+    (pin "2" (uuid b6189702-5a33-4418-81a1-783c30063155))
     (instances
       (project "Logi-PCB-2"
         (path "/4826693f-0a14-47f3-8ca1-fd74785177a0"
@@ -9111,7 +9111,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0122") (unit 1)
         )
       )
     )
@@ -9381,7 +9381,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0179") (unit 1)
         )
       )
     )
@@ -9482,7 +9482,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0227") (unit 1)
         )
       )
     )
@@ -10040,7 +10040,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0218") (unit 1)
         )
       )
     )
@@ -10070,7 +10070,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0213") (unit 1)
         )
       )
     )
@@ -10167,7 +10167,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0231") (unit 1)
         )
       )
     )
@@ -10595,7 +10595,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0178") (unit 1)
         )
       )
     )
@@ -10945,7 +10945,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -11192,7 +11192,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
       )
     )
@@ -11227,7 +11227,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0188") (unit 1)
         )
       )
     )
@@ -11293,7 +11293,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0220") (unit 1)
         )
       )
     )
@@ -11323,7 +11323,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
       )
     )
@@ -11488,7 +11488,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0142") (unit 1)
         )
       )
     )
@@ -11584,7 +11584,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0167") (unit 1)
         )
       )
     )
@@ -11614,7 +11614,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0236") (unit 1)
         )
       )
     )
@@ -11690,22 +11690,22 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 133.858 292.862 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 134.62 292.354 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 987eab8c-7d91-41ee-b866-4af17d873be6)
-    (property "Reference" "#PWR0200" (at 133.858 296.672 0)
+    (property "Reference" "#PWR0200" (at 134.62 296.164 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 133.858 289.306 0)
+    (property "Value" "+3.3V" (at 134.62 288.798 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 133.858 292.862 0)
+    (property "Footprint" "" (at 134.62 292.354 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 133.858 292.862 0)
+    (property "Datasheet" "" (at 134.62 292.354 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7b0b7968-8d8e-4cb3-8afa-5df0bff454f9))
+    (pin "1" (uuid c0f0d42f-e8dd-444f-bc83-8c0c65efb352))
     (instances
       (project "Logi-PCB-2"
         (path "/4826693f-0a14-47f3-8ca1-fd74785177a0"
@@ -11719,7 +11719,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0183") (unit 1)
         )
       )
     )
@@ -11815,7 +11815,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0165") (unit 1)
         )
       )
     )
@@ -11845,7 +11845,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0228") (unit 1)
         )
       )
     )
@@ -11875,54 +11875,54 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0116") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "SamacSys_Parts:PMV100EPAR") (at 126.238 303.276 0) (unit 1)
+  (symbol (lib_id "SamacSys_Parts:PMV100EPAR") (at 127 302.768 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9965a0d3-68b3-470b-8b0a-7139cc3c7cef)
-    (property "Reference" "Q9" (at 137.414 299.466 0)
+    (property "Reference" "Q9" (at 138.176 298.958 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "PMV100EPAR" (at 137.414 302.006 0)
+    (property "Value" "PMV100EPAR" (at 138.176 301.498 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "SamacSys_Parts:SOT95P230X110-3N" (at 137.668 304.546 0)
+    (property "Footprint" "SamacSys_Parts:SOT95P230X110-3N" (at 138.43 304.038 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV100EPA.pdf" (at 137.668 307.086 0)
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV100EPA.pdf" (at 138.43 306.578 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Description" "NEXPERIA - PMV100EPAR - Power MOSFET, P Channel, 60 V, 2.2 A, 0.1 ohm, SOT-23, Surface Mount" (at 137.668 309.626 0)
+    (property "Description" "NEXPERIA - PMV100EPAR - Power MOSFET, P Channel, 60 V, 2.2 A, 0.1 ohm, SOT-23, Surface Mount" (at 138.43 309.118 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Height" "1.1" (at 137.668 312.166 0)
+    (property "Height" "1.1" (at 138.43 311.658 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Manufacturer_Name" "Nexperia" (at 137.668 314.706 0)
+    (property "Manufacturer_Name" "Nexperia" (at 138.43 314.198 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Manufacturer_Part_Number" "PMV100EPAR" (at 137.668 317.246 0)
+    (property "Manufacturer_Part_Number" "PMV100EPAR" (at 138.43 316.738 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Mouser Part Number" "771-PMV100EPAR" (at 137.668 319.786 0)
+    (property "Mouser Part Number" "771-PMV100EPAR" (at 138.43 319.278 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMV100EPAR?qs=vmHwEFxEFR%2FYGVY%2F8WC8mQ%3D%3D" (at 137.668 322.326 0)
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMV100EPAR?qs=vmHwEFxEFR%2FYGVY%2F8WC8mQ%3D%3D" (at 138.43 321.818 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Arrow Part Number" "PMV100EPAR" (at 137.668 324.866 0)
+    (property "Arrow Part Number" "PMV100EPAR" (at 138.43 324.358 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/pmv100epar/nexperia?region=europe" (at 137.668 327.406 0)
+    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/pmv100epar/nexperia?region=europe" (at 138.43 326.898 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 830d4efa-23d5-446a-927e-3b3beb74176c))
-    (pin "2" (uuid 26a5037d-d8b1-4ac4-b1e4-6fb64d4fe077))
-    (pin "3" (uuid 5e7e44f0-72be-42af-b7f9-6ae758363bea))
+    (pin "1" (uuid a436e929-e8dc-4758-86ce-8486465327b6))
+    (pin "2" (uuid cf173ab3-618d-4955-b8cf-7d9b54926c0c))
+    (pin "3" (uuid b572c361-ddb8-460b-acc3-2ede8ffcb8b1))
     (instances
       (project "Logi-PCB-2"
         (path "/4826693f-0a14-47f3-8ca1-fd74785177a0"
@@ -11961,7 +11961,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0225") (unit 1)
         )
       )
     )
@@ -12285,7 +12285,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0145") (unit 1)
         )
       )
     )
@@ -12315,7 +12315,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0222") (unit 1)
         )
       )
     )
@@ -12345,7 +12345,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0138") (unit 1)
         )
       )
     )
@@ -12508,7 +12508,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0229") (unit 1)
         )
       )
     )
@@ -12700,7 +12700,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -12765,7 +12765,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0134") (unit 1)
         )
       )
     )
@@ -12853,7 +12853,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0172") (unit 1)
         )
       )
     )
@@ -13343,7 +13343,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0177") (unit 1)
         )
       )
     )
@@ -14003,7 +14003,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0148") (unit 1)
         )
       )
     )
@@ -14033,7 +14033,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0159") (unit 1)
         )
       )
     )
@@ -14099,7 +14099,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0219") (unit 1)
         )
       )
     )
@@ -14129,7 +14129,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0215") (unit 1)
         )
       )
     )
@@ -14194,7 +14194,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0226") (unit 1)
         )
       )
     )
@@ -14294,7 +14294,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0224") (unit 1)
         )
       )
     )
@@ -14527,7 +14527,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -14592,7 +14592,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0234") (unit 1)
         )
       )
     )
@@ -14622,7 +14622,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0214") (unit 1)
         )
       )
     )
@@ -14652,7 +14652,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -14845,23 +14845,23 @@
     )
   )
 
-  (symbol (lib_id "Device:LED") (at 147.066 311.912 270) (unit 1)
+  (symbol (lib_id "Device:LED") (at 147.828 311.404 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7a45e34-f5d0-45a9-b95f-11d596703db6)
-    (property "Reference" "D18" (at 150.368 312.166 0)
+    (property "Reference" "D18" (at 151.13 311.658 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LED" (at 144.272 312.166 0)
+    (property "Value" "LED" (at 145.034 311.658 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "LED_SMD:LED_0402_1005Metric" (at 147.066 311.912 0)
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric" (at 147.828 311.404 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 147.066 311.912 0)
+    (property "Datasheet" "~" (at 147.828 311.404 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2d8761c0-e111-488b-8ba2-9f91431bf9bc))
-    (pin "2" (uuid f668d20f-5c5a-4ee6-971a-5a9837c19aff))
+    (pin "1" (uuid d00b6814-11a4-4836-b461-7f082aa71df8))
+    (pin "2" (uuid d0f93b54-fe05-45d0-a5f9-de1660120d16))
     (instances
       (project "Logi-PCB-2"
         (path "/4826693f-0a14-47f3-8ca1-fd74785177a0"
@@ -15078,7 +15078,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0232") (unit 1)
         )
       )
     )
@@ -15568,7 +15568,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -15890,7 +15890,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0154") (unit 1)
         )
       )
     )
@@ -16061,7 +16061,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0137") (unit 1)
         )
       )
     )
@@ -16171,48 +16171,48 @@
     )
   )
 
-  (symbol (lib_id "SamacSys_Parts:2N7002_HAMR") (at 126.238 333.756 0) (unit 1)
+  (symbol (lib_id "SamacSys_Parts:2N7002_HAMR") (at 127 333.248 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid deeeda0f-dff4-4ae8-9022-695cd72d0ac0)
-    (property "Reference" "Q11" (at 137.033 329.819 0)
+    (property "Reference" "Q11" (at 137.795 329.311 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2N7002_HAMR" (at 133.731 326.898 0)
+    (property "Value" "2N7002_HAMR" (at 134.493 326.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "SamacSys_Parts:2N7002HAMR" (at 137.668 335.026 0)
+    (property "Footprint" "SamacSys_Parts:2N7002HAMR" (at 138.43 334.518 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf" (at 137.668 337.566 0)
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf" (at 138.43 337.058 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Description" "60 V, 300 mA N-channel Trench MOSFET VDS:60v  ID:300 ma" (at 137.668 340.106 0)
+    (property "Description" "60 V, 300 mA N-channel Trench MOSFET VDS:60v  ID:300 ma" (at 138.43 339.598 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Height" "1.1" (at 137.668 342.646 0)
+    (property "Height" "1.1" (at 138.43 342.138 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Manufacturer_Name" "Nexperia" (at 137.668 345.186 0)
+    (property "Manufacturer_Name" "Nexperia" (at 138.43 344.678 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Manufacturer_Part_Number" "2N7002/HAMR" (at 137.668 347.726 0)
+    (property "Manufacturer_Part_Number" "2N7002/HAMR" (at 138.43 347.218 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Mouser Part Number" "771-2N7002/HAMR" (at 137.668 350.266 0)
+    (property "Mouser Part Number" "771-2N7002/HAMR" (at 138.43 349.758 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/2N7002-HAMR?qs=vLWxofP3U2z6UwzQk4y2Pw%3D%3D" (at 137.668 352.806 0)
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/2N7002-HAMR?qs=vLWxofP3U2z6UwzQk4y2Pw%3D%3D" (at 138.43 352.298 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Arrow Part Number" "2N7002/HAMR" (at 137.668 355.346 0)
+    (property "Arrow Part Number" "2N7002/HAMR" (at 138.43 354.838 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/2n7002hamr/nexperia?region=nac" (at 137.668 357.886 0)
+    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/2n7002hamr/nexperia?region=nac" (at 138.43 357.378 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 2c99c330-7bed-4d11-98d9-af9b5995d886))
-    (pin "2" (uuid d8a91516-2d10-4107-8c82-1a971ccb7e33))
-    (pin "3" (uuid c001cd9a-886f-4c59-b7a6-63f14aeb378d))
+    (pin "1" (uuid c4d091e7-d68f-4e46-b841-caaa5e61cb5b))
+    (pin "2" (uuid 00944bb8-b2f3-4d1b-949c-7e57f84fc221))
+    (pin "3" (uuid 67f653d5-b641-43fa-ad15-d71b4346ba1f))
     (instances
       (project "Logi-PCB-2"
         (path "/4826693f-0a14-47f3-8ca1-fd74785177a0"
@@ -16669,7 +16669,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
       )
     )
@@ -16699,7 +16699,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0235") (unit 1)
         )
       )
     )
@@ -16764,7 +16764,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0221") (unit 1)
         )
       )
     )
@@ -16837,23 +16837,23 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 117.094 303.276 270) (unit 1)
+  (symbol (lib_id "Device:R") (at 117.856 302.768 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef28a68f-5366-4101-987a-40b319758089)
-    (property "Reference" "R39" (at 117.602 305.562 90)
+    (property "Reference" "R39" (at 118.364 305.054 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "5.6k" (at 117.602 308.102 90)
+    (property "Value" "5.6k" (at 118.364 307.594 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 117.094 299.466 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 117.856 298.958 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 117.094 303.276 0)
+    (property "Datasheet" "~" (at 117.856 302.768 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cf80ade3-cd9c-4254-91a9-7ad9fb2bc7a6))
-    (pin "2" (uuid 26ea899a-d262-4104-be15-914689c5d933))
+    (pin "1" (uuid 23e1e5a2-da92-4a0a-92d9-59f95ec725ca))
+    (pin "2" (uuid 5cd288cd-709b-4682-a820-2c9a2c59bc05))
     (instances
       (project "Logi-PCB-2"
         (path "/4826693f-0a14-47f3-8ca1-fd74785177a0"
@@ -16932,7 +16932,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0223") (unit 1)
         )
       )
     )
@@ -16997,7 +16997,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0118") (unit 1)
         )
       )
     )
@@ -17027,29 +17027,29 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0216") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R") (at 117.094 339.09 90) (unit 1)
+  (symbol (lib_id "Device:R") (at 117.856 338.582 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4bca488-7cec-41b4-a01c-be005381c7c4)
-    (property "Reference" "R40" (at 117.348 333.756 90)
+    (property "Reference" "R40" (at 118.11 333.248 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "5.6k" (at 117.348 336.296 90)
+    (property "Value" "5.6k" (at 118.11 335.788 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 117.094 340.868 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 117.856 340.36 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 117.094 339.09 0)
+    (property "Datasheet" "~" (at 117.856 338.582 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 230066a2-6401-4879-94e3-cb7e59fa644a))
-    (pin "2" (uuid a1c8248c-1981-4ee9-a596-9ea8f2cb0cbd))
+    (pin "1" (uuid 1df5af2a-946d-4e24-b0c9-41f593372d53))
+    (pin "2" (uuid 6bdddd04-e608-4f51-b3f5-255968ad6329))
     (instances
       (project "Logi-PCB-2"
         (path "/4826693f-0a14-47f3-8ca1-fd74785177a0"
@@ -17390,23 +17390,23 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 117.348 315.214 90) (unit 1)
+  (symbol (lib_id "Device:R") (at 118.11 314.706 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa23a464-3c71-466c-8675-2f448d95d040)
-    (property "Reference" "R41" (at 117.348 310.388 90)
+    (property "Reference" "R41" (at 118.11 309.88 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "5.6k" (at 117.348 312.928 90)
+    (property "Value" "5.6k" (at 118.11 312.42 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 117.348 316.992 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 118.11 316.484 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 117.348 315.214 0)
+    (property "Datasheet" "~" (at 118.11 314.706 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 71bf9d70-3614-4f8a-a97e-6b4ac6026e15))
-    (pin "2" (uuid a78c0c8f-1dae-4d82-af21-2cddee373db8))
+    (pin "1" (uuid b2e89404-a69a-4e97-9d64-3fb5f5764091))
+    (pin "2" (uuid 08bcf72a-9be1-48d6-9229-796d4dba427e))
     (instances
       (project "Logi-PCB-2"
         (path "/4826693f-0a14-47f3-8ca1-fd74785177a0"
@@ -17551,7 +17551,7 @@
       )
       (project "Logic-PCB"
         (path "/eaab10dc-c7f1-4dfd-85a3-a6211aca9d04"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0212") (unit 1)
         )
       )
     )
