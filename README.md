@@ -1,10 +1,44 @@
 ## Table of Contents
 ***
 1. [General Info](#general-info)
-2. [Design Requirements](#design-requirements)
-3. [Detailed Schematic Info](#detailed-schematic-info)
-4. [Possible Improvements](#possible-improvements)
-5. [Acknowledgements](#acknowledgements)
+2. [Images](#images)
+3. [Design Requirements](#design-requirements) 
+   - [Boolean Logic](#boolean-logic)
+   - [Flip Flops](#flip-flops)
+   - [Power](#power)
+   - [Silk Screen](#silk-screen)
+   - [Dimensions](#dimensions)
+4. [Detailed Schematic Info](#detailed-schematic-info)
+   - [Input Power](#input-power)
+      - [USB-C Connector](#usb-c-connector)
+      - [5V to 3.3V Linear Regulator](#linear-regulator)
+      - [On/Off Switch](#power-switch)
+      - [Battery Considerations](#battery-considerations)
+   - [Buttons](#buttons)
+   - [LEDs](#leds)
+   - [Logic Gates](#logic-gates)
+      - [NOT Gate](#not-gate)
+      - [AND Gate](#and-gate)
+      - [OR Gate](#or-gate)
+      - [NAND Gate](#nand-gate)
+      - [NOR Gate](#nor-gate)
+      - [XOR Gate](#xor-gate)
+      - [XNOR Gate](#xnor-gate)
+   - [Flip Flops and Latches](#flip-flops-and-latches)
+      - [D Flip Flop](#d-flip-flop)
+      - [JK Flip Flop](#jk-flip-flop)
+      - [T Flip Flop](#t-flip-flop)
+      - [SR Latch](#sr-latch)
+   - [Adjustable Clock Generator](#adjustable-clock-generator)
+   - [State Machine](#state-machine)
+   - [Synchronous 3-Bit 0-5 Counter](#synchronous-3-bit-0-5-counter)
+   - [Multiplexers and 16-Segment Display](#multiplexers-and-16-segment-display)
+5. [KiCAD](#kicad)
+   - [Schematic](#schematic)
+   - [PCB Layout](#pcb-layout)
+6. [Possible Improvements](#possible-improvements)
+7. [Acknowledgements](#acknowledgements)
+
 ## General Info
 ***
 This is a quick-turn promotional PCB made as an intern project for Gentex Corporation. It showcases digital logic concepts in an interactive format, and will be a useful reference for students studying digital electronics.
@@ -51,7 +85,7 @@ We did a power analysis on our design to determine the max current that would th
 
 This USB-C connector is power only, which means it has fewer pins than a standard USB-C jack. This makes the pads bigger and easier to solder onto. The pins that are included are 2 VBUS, 2 GND, and 2 CC pins. The CC pins are used to regulate the current draw from the power source. In order to activate the power source, we have to add a 5.1k resistor to each CC pin. The USB-C should be able to supply 5V at up to 500mA, which should be enough for all functions on the board.
 
-#### 5V to 3.3V Linear Regulator
+#### Linear Regulator
 ![Linear Regulator](https://github.com/vandjac/Logic-PCB/assets/32146550/c5527296-a7dd-4d43-8bca-1c9cb623f3f0)
 
 The chosen linear regulator can convert 5V to 3.3V with a max output current of 400mA. Another consideration for the regulator is heat dissipation, which could be problematic at max output current. The calculation for determining the temperature of the part is as follows:
@@ -66,7 +100,7 @@ The industry standard is that anything over 60°C is too hot to touch, so the DP
 
 The circuit design was copied from the datasheet for the linear regulator. The datasheet provides different configurations depending on the desired output voltage. A .1u bypass capacitor is also added to the output to smooth out voltage spikes.
 
-#### On/Off Switch
+#### Power Switch
 ![On Off switch](https://github.com/vandjac/Logic-PCB/assets/32146550/50003c49-044a-45a4-90d3-5aca80983a06)
 
 The main consideration for the switch was how much current it could handle, since the entire power for the board was being routed through the switch. For the JS203011JAQN switch being used, the datasheet gives a contact rating of 0.3A@6VDC. Since we’re using 3V power, we should be able to get more than 0.3A through it, if needed.
@@ -144,7 +178,7 @@ Truth Table:
 | 1 | 0 | 1 |
 | 1 | 1 | 1 |
 
-#### CMOS NAND Gate
+#### NAND Gate
 ![NAND](https://github.com/vandjac/Logic-PCB/assets/32146550/e64f7e7e-dad3-4ebd-97b0-4f7c82120f77)
 
 The NAND gate is a logical combination of an AND gate followed by a NOT gate (inverter). It accepts two or more input signals and produces an inverted output, which remains high (1) unless all the inputs are high (1).
@@ -164,7 +198,7 @@ Truth Table:
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
 
-#### CMOS NOR Gate
+#### NOR Gate
 ![NOR](https://github.com/vandjac/Logic-PCB/assets/32146550/80991aa5-2139-4b4a-8760-e4cce2b8d6d6)
 
 The NOR gate is a logical combination of an OR gate followed by a NOT gate (inverter). It accepts two or more input signals and produces an inverted output, which remains low (0) only when all inputs are high (1).
@@ -212,7 +246,7 @@ Truth Table:
 | 1 | 0 | 0 |
 | 1 | 1 | 1 |
 
-### Flip Flops
+### Flip Flops and Latches
 ***
 Latches and flip-flops are fundamental building blocks in digital logic circuits used to store and synchronize data.
 
@@ -341,6 +375,14 @@ In order to determine which mux inputs to tie high and low, we created a table. 
 
 The outputs of each mux are capable of sourcing at least 10mA of current. A current limiting resistor is placed between each output and LED segment.
 
+## KiCAD
+***
+#### Schematic
+When designing the schematics to the circuits on the PCB, an important step was to find the components needed as well as assigning the footprints and values to them. This involved researching for parts and then finding the selected part online and importing it to KiCAD. This process was streamlined by using a tool called Samacsys KiCAD Libraries. Using this tool, it was possible to search the part needed, see if it had a footprint, datasheet, etc., and import it to the KiCAD library all with a couple clicks. Boxes were also drawn around circuits that were in some way related as to clarify sections of the board because the point of the board is to explain how things work.
+
+#### PCB Layout
+0.15mm traces were used throughout the board. This was the chosen diameter because there is not a lot of current flowing through the board so wide traces are not as necessary. 
+
 ## Possible Improvements
 ***
 - The switch currently being used is a right angle switch, pointed in a direction on the board that makes it somewhat difficult to access. The switch should either be moved to the side of the board, or a vertical switch should be used.
@@ -350,3 +392,4 @@ The outputs of each mux are capable of sourcing at least 10mA of current. A curr
 
 ## Acknowledgements
 ***
+Thanks to Tom Case and Nicholas Young for defining this project and doing a thorough design review with us.
