@@ -44,12 +44,12 @@
 This is a quick-turn promotional PCB made as an intern project for Gentex Corporation. It showcases digital logic concepts in an interactive format, and will be a useful reference for students studying digital electronics.
 ## Images
 ***
-![Logic-PCB-Front](https://github.com/vandjac/Logic-PCB/assets/32146550/ab503c88-e459-450d-a51a-90765530fc27)
-![Logic-PCB-Back](https://github.com/vandjac/Logic-PCB/assets/32146550/ad24acc0-1959-43f1-9e4e-f1a138fb714e)
+![Logic-PCB-Front](https://github.com/vandjac/Logic-PCB/blob/main/Logic-PCB-Front.png)
+![Logic-PCB-Back](https://github.com/vandjac/Logic-PCB/blob/main/Logic-PCB-Back.png)
 ## Design Requirements
 ***
 #### Boolean Logic
-* The design shall include the following Boolean logic gates: 
+* The design shall include the following Boolean logic gates:
    - AND 
     - OR 
     - XOR 
@@ -81,12 +81,12 @@ According to the project requirements, the board had to operate at 3V. When choo
 We did a power analysis on our design to determine the max current that would theoretically be drawn. With 17 LEDs pulling 5-10mA, a max of 8 segments of the 16 digit display being on at 10mA, and the linear regulator at 45mA, our max current draw was around 200-300mA.
 
 #### USB-C Connector
-![USB C](https://github.com/vandjac/Logic-PCB/assets/32146550/922adfd0-32e6-4167-b335-6c654e5acc67)
+![USB C](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/USB%20C.PNG)
 
 This USB-C connector is power only, which means it has fewer pins than a standard USB-C jack. This makes the pads bigger and easier to solder onto. The pins that are included are 2 VBUS, 2 GND, and 2 CC pins. The CC pins are used to regulate the current draw from the power source. In order to activate the power source, we have to add a 5.1k resistor to each CC pin. The USB-C should be able to supply 5V at up to 500mA, which should be enough for all functions on the board.
 
 #### Linear Regulator
-![Linear Regulator](https://github.com/vandjac/Logic-PCB/assets/32146550/c5527296-a7dd-4d43-8bca-1c9cb623f3f0)
+![Linear Regulator](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/Linear%20Regulator.PNG)
 
 The chosen linear regulator can convert 5V to 3.3V with a max output current of 400mA. Another consideration for the regulator is heat dissipation, which could be problematic at max output current. The calculation for determining the temperature of the part is as follows:
 
@@ -101,12 +101,12 @@ The industry standard is that anything over 60°C is too hot to touch, so the DP
 The circuit design was copied from the datasheet for the linear regulator. The datasheet provides different configurations depending on the desired output voltage. A .1u bypass capacitor is also added to the output to smooth out voltage spikes.
 
 #### Power Switch
-![On Off switch](https://github.com/vandjac/Logic-PCB/assets/32146550/50003c49-044a-45a4-90d3-5aca80983a06)
+![On Off switch](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/On%20Off%20switch.PNG)
 
 The main consideration for the switch was how much current it could handle, since the entire power for the board was being routed through the switch. For the JS203011JAQN switch being used, the datasheet gives a contact rating of 0.3A@6VDC. Since we’re using 3V power, we should be able to get more than 0.3A through it, if needed.
 
 #### Battery Considerations
-![Battery](https://github.com/vandjac/Logic-PCB/assets/32146550/7941c706-5736-4c1a-afeb-9206fac98fc6)
+![Battery](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/Battery.PNG)
 
 In the event that someone would want to add a battery to the board, we have kept the schematics for the battery in the design, but commented out. If a battery were to be added in conjunction with USB power, it would be necessary to ensure that the two power sources don’t fight. To do so, Schottky diodes are placed on the 3V outputs of the battery holder and the linear regulator. These diodes have a low voltage drop (0.3V) and block current from flowing back into the battery or regulator. 
 
@@ -114,7 +114,7 @@ In reality, the Schottky diode on the regulator wouldn’t be doing much. This i
 
 ### Buttons
 ***
-![Buttons](https://github.com/vandjac/Logic-PCB/assets/32146550/a186d282-f980-4e4d-8ae3-625a7260bca2)
+![Buttons](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/Buttons.PNG)
 
 Originally, we were planning on having individual buttons for each logic gate and flip flop. We quickly realized that would be a waste of space. Now, we have two buttons (labeled A and B) that control all the logic gates and flip flops on the board. 
 
@@ -133,7 +133,7 @@ Because we have the LEDs sourcing current from ICs, we had to ensure that each I
 Logic gates are fundamental building blocks of digital circuits and are used to perform logical operations. According to the project requirements, the common 7 logic gates: AND, OR, NOT, XOR, NOR, XNOR, NAND. This was implemented with the use of NPN, PNP, P-channel, N-channel CMOS transistors, LEDs, resistors, and buttons A & B.
 
 #### NOT Gate
-![NOT](https://github.com/vandjac/Logic-PCB/assets/32146550/8d993d4d-bea4-47a5-90dc-e1906a5a383d)
+![NOT](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/NOT.PNG)
 
 The NOT gate, also known as an inverter, is a logical component that takes a single input signal and generates an output signal that is the inverse of the input. Specifically, when the input signal is at a high state (1), the output signal is at a low state (0), and conversely, when the input is low (0), the output is high (1). To achieve this functionality, a circuit was designed in which the power flows through a resistor and an LED connected to the collector of a PNP transistor. Initially, when the board is powered on, the LED is lit, indicating a high (1) output as button A remains untouched, signifying a low (0) input. However, when button A is pressed, causing a high (1) input, power is directed through the base of the PNP transistor, resulting in the LED being turned off, thereby representing a low (0) output state.
 
@@ -145,7 +145,7 @@ Truth Table:
 | 1 | 0 |
 
 #### AND Gate
-![AND](https://github.com/vandjac/Logic-PCB/assets/32146550/a5f90b13-428e-45ed-a32b-d485dd8bf4fb)
+![AND](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/AND.PNG)
 
 The AND gate is a logic circuit that takes two or more input signals and generates a single output signal. The output signal is set to low (0) whenever any of the input signals are low (0). However, if all the input signals are high (1), the output will be high (1) as well. 
 
@@ -161,7 +161,7 @@ Truth Table:
 | 1 | 1 | 1 |
 
 #### OR Gate
-![OR](https://github.com/vandjac/Logic-PCB/assets/32146550/419a4724-ea69-4eef-917f-005d8fe5eaee)
+![OR](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/OR.PNG)
 
 The OR gate is a logic gate that takes two or more input signals and produces a single output signal. The output signal is set to high (1) when any of the input signals is high (1). However, if all input signals are low (0), the output will be low (0) as well.
 
@@ -179,7 +179,7 @@ Truth Table:
 | 1 | 1 | 1 |
 
 #### NAND Gate
-![NAND](https://github.com/vandjac/Logic-PCB/assets/32146550/e64f7e7e-dad3-4ebd-97b0-4f7c82120f77)
+![NAND](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/NAND.PNG)
 
 The NAND gate is a logical combination of an AND gate followed by a NOT gate (inverter). It accepts two or more input signals and produces an inverted output, which remains high (1) unless all the inputs are high (1).
 
@@ -199,7 +199,7 @@ Truth Table:
 | 1 | 1 | 0 |
 
 #### NOR Gate
-![NOR](https://github.com/vandjac/Logic-PCB/assets/32146550/80991aa5-2139-4b4a-8760-e4cce2b8d6d6)
+![NOR](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/NOR.PNG)
 
 The NOR gate is a logical combination of an OR gate followed by a NOT gate (inverter). It accepts two or more input signals and produces an inverted output, which remains low (0) only when all inputs are high (1).
 
@@ -219,7 +219,7 @@ Truth Table:
 | 1 | 1 | 0 |
 
 #### XOR Gate
-![XOR](https://github.com/vandjac/Logic-PCB/assets/32146550/f3ef45ad-269f-495a-b160-fee490ad3a28)
+![XOR](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/XOR.PNG)
 
 The XOR gate, a fundamental logical combination of basic gates, operates on two input signals and generates a singular output signal with a high (1) state when the inputs are dissimilar (one is high while the other is low). Conversely, if both inputs are identical (both high or both low), the output assumes a low (0) state. The implementation of this gate involved the utilization of a chip sourced from Diodes Inc.. The selection of this particular component was based on its ability to meet the criteria for current and voltage requirements, as well as its compact size and cost-effectiveness.
 
@@ -233,7 +233,7 @@ Truth Table:
 | 1 | 1 | 0 |
 
 #### XNOR Gate
-![XNOR](https://github.com/vandjac/Logic-PCB/assets/32146550/9d16c77a-a2fb-443d-8127-ce776369a3d9)
+![XNOR](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/XNOR.PNG)
 
 The XNOR gate, a logical combination of an XOR gate followed by a NOT gate (inverter), serves to process two input signals and yield an output signal that assumes a high state (1) exclusively when the inputs are identical (both high or both low). Conversely, if the inputs are dissimilar, the output assumes a low state (0). The practical realization of this functionality involved the adoption of a chip sourced from the company Nexperia. This was selected for its ability to fulfill the necessary criteria concerning current and voltage requirements, as well as the chip’s ability to meet the criteria for current and voltage requirements, as well as its compact size and cost-effectiveness.
 
@@ -257,7 +257,7 @@ A flip-flop is a more advanced digital storage element that can also hold one bi
 There is a .1u bypass capacitor on each VCC pin to eliminate voltage spikes for each flip flop. 
 
 #### D Flip Flop
-![D flip flop](https://github.com/vandjac/Logic-PCB/assets/32146550/c62244f2-4d04-4a0a-b120-bbd2e57dc185)
+![D flip flop](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/D%20flip%20flop.PNG)
 
 The D flip-flop has a data input (D), a clock input (usually called CLK or CP), and an output (Q). On the rising (or falling) edge of the clock signal, the D flip-flop stores the value present at the data input. The stored value is then available at the output (Q). D flip-flops are widely used for sequential circuits and in synchronous systems.
 
@@ -273,7 +273,7 @@ Truth Table:
 | 1 | 1 | 1 |
 
 #### JK Flip Flop
-![JK flip flop](https://github.com/vandjac/Logic-PCB/assets/32146550/7a42b69c-7f42-492a-a1b5-f58a32b43dc9)
+![JK flip flop](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/JK%20flip%20flop.PNG)
 
 The JK flip-flop has two data inputs: J and K, along with a clock input and an output. The behavior of the JK flip-flop is similar to the D flip-flop, but it has the additional feature of allowing the toggling of the output (Q) when both J and K inputs are active simultaneously.
 
@@ -295,7 +295,7 @@ Truth Table:
 | 1 | 1 | 1 | 0 |
 
 #### T Flip Flop
-![T flip flop](https://github.com/vandjac/Logic-PCB/assets/32146550/68ff4dda-e8f8-4286-9e2e-7dda1a4c31f6)
+![T flip flop](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/T%20flip%20flop.PNG)
 
 The T flip-flop has a single input (T) and a clock input (usually called CLK or CP), along with an output (Q). On each rising (or falling) edge of the clock signal, the T flip-flop toggles its output (Q) based on the value at the T input.
 
@@ -311,7 +311,7 @@ Truth Table:
 | 1 | 1 | 0 |
 
 #### SR Latch
-![SR latch](https://github.com/vandjac/Logic-PCB/assets/32146550/64fd6bab-87f9-45a0-81c6-4d9e050506c4)
+![SR latch](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/SR%20latch.PNG)
 
 The SR latch has two inputs: Set (S) and Reset (R). When the Set input is asserted (usually logic high), the latch stores the value '1'. Conversely, when the Reset input is asserted (usually logic high), the latch stores the value '0'. If both inputs are active simultaneously, the behavior is unpredictable, and this condition should be avoided.
 
@@ -332,7 +332,7 @@ Truth Table:
 
 ### Adjustable Clock Generator
 ***
-![Clock](https://github.com/vandjac/Logic-PCB/assets/32146550/a24d5ee3-f780-432d-89f5-4dee843fa05d)
+![Clock](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/Clock.PNG)
 
 It was necessary to add a timer to produce a clock signal that’s used by the flip flops. The timer circuit is mostly taken from its datasheet (the circuit for A-stable operation). The component values were derived from equations found on the datasheet. We chose RA to be 1kΩ and C to be 1u. That leaves RB as the value to change to affect the frequency of the clock. 
 
@@ -353,8 +353,8 @@ Finally, an LED is placed on the clock output so the frequency can be visualized
 The state machine is the most complex circuit on this board. It is intended to display the use of flip flops to switch between different states. The state machine being implemented here is a Moore state machine, which means its next state is only determined by its current state.
 
 #### Synchronous 3-Bit 0-5 Counter
-![Counter](https://github.com/vandjac/Logic-PCB/assets/32146550/d6a4d7eb-3650-41f8-9d55-eb2ab32ef2e5)
-![Sim](https://github.com/vandjac/Logic-PCB/assets/32146550/c7c2ec89-26ab-4de4-8e0d-f0790dde124c)
+![Counter](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/Counter.PNG)
+![Sim](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/CounterSim.PNG)
 
 To build a counter, first you need to create a state transition table. This table includes the current state, the corresponding next state, and whether that bit needs to toggle or not. 
 
@@ -365,7 +365,7 @@ From the Karnaugh maps we got simplified expressions for each toggle bit, which 
 The chips being used all have decoupling capacitors, and the input and output of each T flip flop are visualized using LEDs.
 
 #### Multiplexers and 16 Segment Display
-![Muxes](https://github.com/vandjac/Logic-PCB/assets/32146550/c5e6ab41-8575-4176-b9d8-5688c0c44ece)
+![Muxes](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/Muxes.PNG)
 
 The output of the counter will need to be translated into letters in the word “GENTEX”. To do so, we used multiplexers. These muxes take the counter as their select bits, and then each of the inputs are tied to either 3V or GND, depending on whether a segment needs to be turned on or not.
 
@@ -377,11 +377,15 @@ The outputs of each mux are capable of sourcing at least 10mA of current. A curr
 
 ## KiCAD
 ***
-#### Schematic
-When designing the schematics to the circuits on the PCB, an important step was to find the components needed as well as assigning the footprints and values to them. This involved researching for parts and then finding the selected part online and importing it to KiCAD. This process was streamlined by using a tool called Samacsys KiCAD Libraries. Using this tool, it was possible to search the part needed, see if it had a footprint, datasheet, etc., and import it to the KiCAD library all with a couple clicks. Boxes were also drawn around circuits that were in some way related as to clarify sections of the board because the point of the board is to explain how things work.
+#### Schematics
+When designing the schematics to the circuits on the PCB, an important step was to find the components needed as well as assigning the footprints and values to them. This involved researching for parts and then finding the selected part online and importing it to KiCAD. This process was streamlined by using a tool called Samacsys KiCAD Libraries. Using this tool, it was possible to search the part needed, see if it had a footprint, datasheet, etc., and import it to the KiCAD library all with a couple clicks. There was only one footprint that was not found, the power USB-C, and so a handmade footprint was made using KiCAD based on the datasheet of the component. Boxes were also drawn around circuits that were in some way related as to clarify sections of the board because the point of the board is to explain how things work.
+
+To tie the schematic to the QR code, and because this project is meant to be used as a teaching tool, a QR code was placed on the layout that links to the GitHub Repository. This not only provides an explanation for steps taken in the process of the making of the PCB, but also provides the schematic and other useful images and explanations.
 
 #### PCB Layout
-0.15mm traces were used throughout the board. This was the chosen diameter because there is not a lot of current flowing through the board so wide traces are not as necessary. 
+0.15mm traces were used throughout the board. This was the chosen diameter because there is not a lot of current flowing through the board so wide traces are not as necessary. This also ensured that all the connections could be made as the 8-1 MUXs were small QFNs which would not be possible if the traces were much larger. All of the components were designed to be on the “top” side of the board to ensure it would lay flat, the only through hole component is the 16-seg display. As few vias as possible were used, however there were a lot around the MUXs due to the nature of the chosen chips.
+
+Silkscreen was used heavily in the layout of the PCB. Artificial silkscreen “traces” were drawn from the buttons A & B as well as the clock to the outlines of their respective recipient symbols. These symbols were made by converting an image to a footprint, and then putting the footprint as the silkscreen layer. The same was done for the front and back of the board using the built-in KiCAD image converter tool. The logos were done in a similar fashion, except that they were converted to the mask layer instead of the silkscreen layer.
 
 ## Possible Improvements
 ***
