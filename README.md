@@ -46,10 +46,11 @@ This is a quick-turn promotional PCB made as an intern project for Gentex Corpor
 ***
 ![Logic-PCB-Front](https://github.com/vandjac/Logic-PCB/blob/main/Logic-PCB-Front.png)
 ![Logic-PCB-Back](https://github.com/vandjac/Logic-PCB/blob/main/Logic-PCB-Back.png)
-![Logic_PCB_Layout_Front](https://github.com/vandjac/Logic-PCB/assets/112498063/a5063a05-3ea5-444f-8f11-32c6df8bf2dc)
-![Logic_PCB_Layout_Back](https://github.com/vandjac/Logic-PCB/assets/112498063/ae484afa-ea61-42fc-b9dc-4b6b0423920d)
-![Logic_PCB_Routing_Front](https://github.com/vandjac/Logic-PCB/assets/112498063/69533c26-a7ae-41b4-94c3-ff706c73bd60)
-![Logic_PCB_Routing_Back](https://github.com/vandjac/Logic-PCB/assets/112498063/0e67ef0f-6cc4-4818-b8d7-f9a4024d015b)
+![Logic_PCB_Layout_Front](https://github.com/vandjac/Logic-PCB/assets/112498063/872cb232-a996-44bb-8e81-4936c8487704)
+![Logic_PCB_Layout_Back](https://github.com/vandjac/Logic-PCB/assets/112498063/4d350d2a-441e-4b2e-8cc3-bf096f38c540)
+![Logic_PCB_Routing_Front](https://github.com/vandjac/Logic-PCB/assets/112498063/fa1784a8-3cb0-48cd-b7cc-edefc921f07b)
+![Logic_PCB_Routing_Back](https://github.com/vandjac/Logic-PCB/assets/112498063/62cb1fa2-5691-485e-aab1-5d8e6c63ac1f)
+
 ## Design Requirements
 ***
 #### Boolean Logic
