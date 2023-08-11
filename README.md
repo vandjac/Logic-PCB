@@ -45,12 +45,17 @@ This is a quick-turn promotional PCB made as an intern project for Gentex Corpor
 ## Images
 ***
 ![Logic-PCB-Front](https://github.com/vandjac/Logic-PCB/blob/main/Logic-PCB-Front.png)
+#### KiCAD 3D view (Front)
 ![Logic-PCB-Back](https://github.com/vandjac/Logic-PCB/blob/main/Logic-PCB-Back.png)
+#### KiCAD 3D view (Back)
 ![Logic_PCB_Layout_Front](https://github.com/vandjac/Logic-PCB/assets/112498063/872cb232-a996-44bb-8e81-4936c8487704)
+#### KiCAD Layout (Front)
 ![Logic_PCB_Layout_Back](https://github.com/vandjac/Logic-PCB/assets/112498063/4d350d2a-441e-4b2e-8cc3-bf096f38c540)
+#### KiCAD Layout (Back)
 ![Logic_PCB_Routing_Front](https://github.com/vandjac/Logic-PCB/assets/112498063/fa1784a8-3cb0-48cd-b7cc-edefc921f07b)
+#### KiCAD Routing (Front)
 ![Logic_PCB_Routing_Back](https://github.com/vandjac/Logic-PCB/assets/112498063/62cb1fa2-5691-485e-aab1-5d8e6c63ac1f)
-
+#### KiCAD Routing (Back)
 ## Design Requirements
 ***
 #### Boolean Logic
