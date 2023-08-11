@@ -390,7 +390,7 @@ The outputs of each mux are capable of sourcing at least 10mA of current. A curr
 
 ## KiCAD
 ***
-#### Schematics
+#### Schematic
 When designing the schematics to the circuits on the PCB, an important step was to find the components needed as well as assigning the footprints and values to them. This involved researching for parts and then finding the selected part online and importing it to KiCAD. This process was streamlined by using a tool called Samacsys KiCAD Libraries. Using this tool, it was possible to search the part needed, see if it had a footprint, datasheet, etc., and import it to the KiCAD library all with a couple clicks. There was only one footprint that was not found, the power USB-C, and so a handmade footprint was made using KiCAD based on the datasheet of the component. Boxes were also drawn around circuits that were in some way related as to clarify sections of the board because the point of the board is to explain how things work.
 
 To tie the schematic to the QR code, and because this project is meant to be used as a teaching tool, a QR code was placed on the layout that links to the GitHub Repository. This not only provides an explanation for steps taken in the process of the making of the PCB, but also provides the schematic and other useful images and explanations.
