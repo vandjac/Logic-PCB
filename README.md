@@ -137,9 +137,9 @@ As for the specific button chosen, we simply found one in a small 6x6mm package 
 
 ### LEDs
 ***
-Each LED is set up to run at a max of 10mA. The LEDs have a voltage drop of 2V. 3.3V is sourced from the pins on the ICs or from VCC, depending on the circuit. Therefore, we are left with V=IR, where V=1.3, I=13mA, and R=100Ω. That can easily be changed to V=1.3, I=6.5mA, and R=200Ω with a change of resistors.
+Each LED is set up to run at a max of 10mA. The LEDs have a voltage drop of 2V. 3.3V is taken from the pins on the ICs or from VCC, depending on the circuit. Therefore, we are left with V=IR, where V=1.3, I=13mA, and R=100Ω. That can easily be changed to V=1.3, I=6.5mA, and R=200Ω with a change of resistors.
 
-Because we have the LEDs sourcing current from ICs, we had to ensure that each IC was capable of sourcing 10mA of current. The ICs we chose have that capability.
+Because we have the LEDs sinking current from ICs, we had to ensure that each IC was capable of sinking 10mA of current. The ICs we chose have that capability.
 
 ### Logic Gates
 ***
