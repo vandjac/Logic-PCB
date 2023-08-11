@@ -6,8 +6,10 @@
 
   (title_block
     (title "Quick Turn Promotional PCB")
-    (rev "1.0")
+    (date "2023-08-10")
+    (rev "2.0")
     (company "Gentex Corporation")
+    (comment 1 "Designed by: Jacob Vanden Bosch & Luke Jensen")
   )
 
   (lib_symbols
