@@ -45,9 +45,9 @@ This is a quick-turn promotional PCB made as an intern project for Gentex Corpor
 ## Images
 ***
 #### KiCAD 3D view (Front)
-![Logic-PCB-Front](https://github.com/vandjac/Logic-PCB/assets/112498063/a881568c-6284-4add-8409-4bac2e174d5b)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/95da34ea-2e04-4cb1-a5e3-61b197caf441)
 #### KiCAD 3D view (Back)
-![Logic-PCB-Back](https://github.com/vandjac/Logic-PCB/assets/112498063/cacad561-e87b-41f1-9937-08c29811d6ba)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/5c68c6b7-739c-4f42-85ff-be98659d3509)
 #### KiCAD Layout (Front)
 ![Logic_PCB_Layout_Front](https://github.com/vandjac/Logic-PCB/assets/112498063/872cb232-a996-44bb-8e81-4936c8487704)
 #### KiCAD Layout (Back)
