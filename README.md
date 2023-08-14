@@ -399,7 +399,7 @@ When designing the schematics to the circuits on the PCB, an important step was 
 
 To tie the schematic to the QR code, and because this project is meant to be used as a teaching tool, a QR code was placed on the layout that links to the GitHub Repository. This not only provides an explanation for steps taken in the process of the making of the PCB, but also provides the schematic and other useful images and explanations.
 
-#### [PCB Layout](https://github.com/vandjac/Logic-PCB/assets/112498063/872cb232-a996-44bb-8e81-4936c8487704)
+#### [PCB Layout](#images)
 0.15mm traces were used throughout the board. This was the chosen diameter because there is not a lot of current flowing through the board so wide traces are not as necessary. This also ensured that all the connections could be made as the 8-1 MUXs were small QFNs which would not be possible if the traces were much larger. All of the components were designed to be on the “top” side of the board to ensure it would lay flat, the only through hole component is the 16-seg display. As few vias as possible were used, however there were a lot around the MUXs due to the nature of the chosen chips.
 
 Silkscreen was used heavily in the layout of the PCB. Artificial silkscreen “traces” were drawn from the buttons A & B as well as the clock to the outlines of their respective recipient symbols. These symbols were made by converting an image to a footprint, and then putting the footprint as the silkscreen layer. The same was done for the front and back of the board using the built-in KiCAD image converter tool. The logos were done in a similar fashion, except that they were converted to the mask layer instead of the silkscreen layer.
