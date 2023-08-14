@@ -1,14 +1,13 @@
 ## Table of Contents
 ***
 1. [General Info](#general-info)
-2. [Images](#images)
-3. [Design Requirements](#design-requirements) 
+2. [Design Requirements](#design-requirements) 
    - [Boolean Logic](#boolean-logic)
    - [Flip Flops](#flip-flops)
    - [Power](#power)
    - [Silk Screen](#silk-screen)
    - [Dimensions](#dimensions)
-4. [Detailed Schematic Info](#detailed-schematic-info)
+3. [Detailed Schematic Info](#detailed-schematic-info)
    - [Input Power](#input-power)
       - [USB-C Connector](#usb-c-connector)
       - [5V to 3.3V Linear Regulator](#linear-regulator)
@@ -33,34 +32,16 @@
    - [State Machine](#state-machine)
    - [Synchronous 3-Bit 0-5 Counter](#synchronous-3-bit-0-5-counter)
    - [Multiplexers and 16-Segment Display](#multiplexers-and-16-segment-display)
-5. [KiCAD](#kicad)
+4. [KiCAD](#kicad)
    - [Schematic Design](#schematic-design)
    - [PCB Layout](#pcb-layout)
-6. [Possible Improvements](#possible-improvements)
-7. [Acknowledgements](#acknowledgements)
+      - [Images](#images)
+5. [Possible Improvements](#possible-improvements)
+6. [Acknowledgements](#acknowledgements)
 
 ## General Info
 ***
 This is a quick-turn promotional PCB made as an intern project for Gentex Corporation. It showcases digital logic concepts in an interactive format, and will be a useful reference for students studying digital electronics.
-## Images
-***
-#### KiCAD 3D view (Front)
-![image](https://github.com/vandjac/Logic-PCB/assets/112498063/6af5a9b0-1959-4d38-9557-de27337e6bf9)
-
-#### KiCAD 3D view (Back)
-![image](https://github.com/vandjac/Logic-PCB/assets/112498063/8ce8f2b0-a93a-4a7c-9e44-735fe6157a7e)
-
-#### KiCAD Layout (Front)
-![Logic_PCB_Layout_Front](https://github.com/vandjac/Logic-PCB/assets/112498063/872cb232-a996-44bb-8e81-4936c8487704)
-
-#### KiCAD Layout (Back)
-![Logic_PCB_Layout_Back](https://github.com/vandjac/Logic-PCB/assets/112498063/4d350d2a-441e-4b2e-8cc3-bf096f38c540)
-
-#### KiCAD Routing (Front)
-![Logic_PCB_Routing_Front](https://github.com/vandjac/Logic-PCB/assets/112498063/fa1784a8-3cb0-48cd-b7cc-edefc921f07b)
-
-#### KiCAD Routing (Back)
-![Logic_PCB_Routing_Back](https://github.com/vandjac/Logic-PCB/assets/112498063/62cb1fa2-5691-485e-aab1-5d8e6c63ac1f)
 
 ## Design Requirements
 ***
@@ -403,6 +384,26 @@ To tie the schematic to the QR code, and because this project is meant to be use
 0.15mm traces were used throughout the board. This was the chosen diameter because there is not a lot of current flowing through the board so wide traces are not as necessary. This also ensured that all the connections could be made as the 8-1 MUXs were small QFNs which would not be possible if the traces were much larger. All of the components were designed to be on the “top” side of the board to ensure it would lay flat, the only through hole component is the 16-seg display. As few vias as possible were used, however there were a lot around the MUXs due to the nature of the chosen chips.
 
 Silkscreen was used heavily in the layout of the PCB. Artificial silkscreen “traces” were drawn from the buttons A & B as well as the clock to the outlines of their respective recipient symbols. These symbols were made by converting an image to a footprint, and then putting the footprint as the silkscreen layer. The same was done for the front and back of the board using the built-in KiCAD image converter tool. The logos were done in a similar fashion, except that they were converted to the mask layer instead of the silkscreen layer.
+
+#### Images
+***
+#### KiCAD 3D view (Front)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/6af5a9b0-1959-4d38-9557-de27337e6bf9)
+
+#### KiCAD 3D view (Back)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/8ce8f2b0-a93a-4a7c-9e44-735fe6157a7e)
+
+#### KiCAD Layout (Front)
+![Logic_PCB_Layout_Front](https://github.com/vandjac/Logic-PCB/assets/112498063/872cb232-a996-44bb-8e81-4936c8487704)
+
+#### KiCAD Layout (Back)
+![Logic_PCB_Layout_Back](https://github.com/vandjac/Logic-PCB/assets/112498063/4d350d2a-441e-4b2e-8cc3-bf096f38c540)
+
+#### KiCAD Routing (Front)
+![Logic_PCB_Routing_Front](https://github.com/vandjac/Logic-PCB/assets/112498063/fa1784a8-3cb0-48cd-b7cc-edefc921f07b)
+
+#### KiCAD Routing (Back)
+![Logic_PCB_Routing_Back](https://github.com/vandjac/Logic-PCB/assets/112498063/62cb1fa2-5691-485e-aab1-5d8e6c63ac1f)
 
 ## Possible Improvements
 ***
