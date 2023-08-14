@@ -408,7 +408,7 @@ Silkscreen was used heavily in the layout of the PCB. Artificial silkscreen “t
 
 ## Possible Improvements
 ***
-- The switch currently being used is a right angle switch, pointed in a direction on the board that makes it somewhat difficult to access. The switch should either be moved to the side of the board, or a vertical switch should be used.
+- The switch currently being used is a right-angle switch, pointed in a direction on the board that makes it somewhat difficult to access. The switch should either be moved to the side of the board, or a vertical switch should be used.
 - As discussed in the “Battery Considerations” section, a battery could be added to improve portability of the board.
 - If a battery is added, thought could be put into whether making it rechargeable through USB-C or a solar panel would be worthwhile.
 - It would entail a complete redesign of the board, but implementing everything on a small microcontroller could allow you to reduce the dimensions of the board or add many more features to the board in the same dimensions.
