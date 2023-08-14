@@ -103,7 +103,8 @@ The circuit design was copied from the datasheet for the linear regulator. The d
 The main consideration for the switch was how much current it could handle, since the entire power for the board was being routed through the switch. For the JS203011JAQN switch being used, the datasheet gives a contact rating of 0.3A@6VDC. Since we’re using 3V power, we should be able to get more than 0.3A through it, if needed.
 
 #### Battery Considerations
-![Battery](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/Battery.PNG)
+![Battery](https://github.com/vandjac/Logic-PCB/assets/112498063/38ee0cdb-9c0f-4c1a-a8e7-31e198745cfa)
+
 
 In the event that someone would want to add a battery to the board, we have kept the schematics for the battery in the design, but commented out. If a battery were to be added in conjunction with USB power, it would be necessary to ensure that the two power sources don’t fight. To do so, Schottky diodes are placed on the 3V outputs of the battery holder and the linear regulator. These diodes have a low voltage drop (0.3V) and block current from flowing back into the battery or regulator. 
 
