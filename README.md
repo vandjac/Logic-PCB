@@ -46,16 +46,22 @@ This is a quick-turn promotional PCB made as an intern project for Gentex Corpor
 ***
 #### KiCAD 3D view (Front)
 ![image](https://github.com/vandjac/Logic-PCB/assets/112498063/6af5a9b0-1959-4d38-9557-de27337e6bf9)
+
 #### KiCAD 3D view (Back)
 ![image](https://github.com/vandjac/Logic-PCB/assets/112498063/8ce8f2b0-a93a-4a7c-9e44-735fe6157a7e)
+
 #### KiCAD Layout (Front)
 ![Logic_PCB_Layout_Front](https://github.com/vandjac/Logic-PCB/assets/112498063/872cb232-a996-44bb-8e81-4936c8487704)
+
 #### KiCAD Layout (Back)
 ![Logic_PCB_Layout_Back](https://github.com/vandjac/Logic-PCB/assets/112498063/4d350d2a-441e-4b2e-8cc3-bf096f38c540)
+
 #### KiCAD Routing (Front)
 ![Logic_PCB_Routing_Front](https://github.com/vandjac/Logic-PCB/assets/112498063/fa1784a8-3cb0-48cd-b7cc-edefc921f07b)
+
 #### KiCAD Routing (Back)
 ![Logic_PCB_Routing_Back](https://github.com/vandjac/Logic-PCB/assets/112498063/62cb1fa2-5691-485e-aab1-5d8e6c63ac1f)
+
 #### KiCAD Schematic
 [Logic-PCB-Schematic.pdf](https://github.com/vandjac/Logic-PCB/files/12321933/Logic-PCB-Schematic.pdf)
 
@@ -99,7 +105,7 @@ We did a power analysis on our design to determine the max current that would th
 This USB-C connector is power only, which means it has fewer pins than a standard USB-C jack. This makes the pads bigger and easier to solder onto. The pins that are included are 2 VBUS, 2 GND, and 2 CC pins. The CC pins are used to regulate the current draw from the power source. In order to activate the power source, we have to add a 5.1k resistor to each CC pin. The USB-C should be able to supply 5V at up to 500mA, which should be enough for all functions on the board.
 
 #### Linear Regulator
-![Linear Regulator](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/Linear%20Regulator.PNG)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/0c6cdb1f-0df8-4552-9353-6802618042cd)
 
 The chosen linear regulator can convert 5V to 3.3V with a max output current of 400mA. Another consideration for the regulator is heat dissipation, which could be problematic at max output current. The calculation for determining the temperature of the part is as follows:
 
@@ -114,7 +120,7 @@ The industry standard is that anything over 60°C is too hot to touch, so the DP
 The circuit design was copied from the datasheet for the linear regulator. The datasheet provides different configurations depending on the desired output voltage. A .1u bypass capacitor is also added to the output to smooth out voltage spikes.
 
 #### Power Switch
-![On Off switch](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/On%20Off%20switch.PNG)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/321562ea-7db3-4942-a291-9a9638e96d23)
 
 The main consideration for the switch was how much current it could handle, since the entire power for the board was being routed through the switch. For the JS203011JAQN switch being used, the datasheet gives a contact rating of 0.3A@6VDC. Since we’re using 3V power, we should be able to get more than 0.3A through it, if needed.
 
