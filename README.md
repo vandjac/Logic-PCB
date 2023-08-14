@@ -133,7 +133,7 @@ In reality, the Schottky diode on the regulator wouldn’t be doing much. This i
 
 ### Buttons
 ***
-![Buttons](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/Buttons.PNG)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/e1341ef1-85ba-4026-b075-3e8bf363d91d)
 
 Originally, we were planning on having individual buttons for each logic gate and flip flop. We quickly realized that would be a waste of space. Now, we have two buttons (labeled A and B) that control all the logic gates and flip flops on the board. 
 
@@ -152,7 +152,7 @@ Because we have the LEDs sinking current from ICs, we had to ensure that each IC
 Logic gates are fundamental building blocks of digital circuits and are used to perform logical operations. According to the project requirements, the common 7 logic gates: AND, OR, NOT, XOR, NOR, XNOR, NAND. This was implemented with the use of NPN, PNP, P-channel, N-channel CMOS transistors, LEDs, resistors, and buttons A & B.
 
 #### NOT Gate
-![NOT](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/NOT.PNG)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/413dc26d-6ead-47a2-91d5-774586f1adc1)
 
 The NOT gate, also known as an inverter, is a logical component that takes a single input signal and generates an output signal that is the inverse of the input. Specifically, when the input signal is at a high state (1), the output signal is at a low state (0), and conversely, when the input is low (0), the output is high (1). To achieve this functionality, a circuit was designed in which the power flows through a resistor and an LED connected to the collector of a PNP transistor. Initially, when the board is powered on, the LED is lit, indicating a high (1) output as button A remains untouched, signifying a low (0) input. However, when button A is pressed, causing a high (1) input, power is directed through the base of the PNP transistor, resulting in the LED being turned off, thereby representing a low (0) output state.
 
@@ -164,7 +164,7 @@ Truth Table:
 | 1 | 0 |
 
 #### AND Gate
-![AND](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/AND.PNG)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/84e4db1c-6655-483b-ad4f-7f6e7c6963c8)
 
 The AND gate is a logic circuit that takes two or more input signals and generates a single output signal. The output signal is set to low (0) whenever any of the input signals are low (0). However, if all the input signals are high (1), the output will be high (1) as well. 
 
@@ -180,7 +180,7 @@ Truth Table:
 | 1 | 1 | 1 |
 
 #### OR Gate
-![OR](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/OR.PNG)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/e98d617d-541e-4ea9-abe4-f58bfbd2135c)
 
 The OR gate is a logic gate that takes two or more input signals and produces a single output signal. The output signal is set to high (1) when any of the input signals is high (1). However, if all input signals are low (0), the output will be low (0) as well.
 
@@ -198,7 +198,7 @@ Truth Table:
 | 1 | 1 | 1 |
 
 #### NAND Gate
-![NAND](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/NAND.PNG)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/486c85ad-8147-4d23-8cda-4bd7ad2da94d)
 
 The NAND gate is a logical combination of an AND gate followed by a NOT gate (inverter). It accepts two or more input signals and produces an inverted output, which remains high (1) unless all the inputs are high (1).
 
@@ -218,7 +218,7 @@ Truth Table:
 | 1 | 1 | 0 |
 
 #### NOR Gate
-![NOR](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/NOR.PNG)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/964539a5-ef98-4ffa-8053-5e44857d5d1d)
 
 The NOR gate is a logical combination of an OR gate followed by a NOT gate (inverter). It accepts two or more input signals and produces an inverted output, which remains low (0) only when all inputs are high (1).
 
@@ -238,7 +238,7 @@ Truth Table:
 | 1 | 1 | 0 |
 
 #### XOR Gate
-![XOR](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/XOR.PNG)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/f211c83e-812a-48e9-b6a4-45d827629204)
 
 The XOR gate, a fundamental logical combination of basic gates, operates on two input signals and generates a singular output signal with a high (1) state when the inputs are dissimilar (one is high while the other is low). Conversely, if both inputs are identical (both high or both low), the output assumes a low (0) state. The implementation of this gate involved the utilization of a chip sourced from Diodes Inc.. The selection of this particular component was based on its ability to meet the criteria for current and voltage requirements, as well as its compact size and cost-effectiveness.
 
@@ -252,7 +252,7 @@ Truth Table:
 | 1 | 1 | 0 |
 
 #### XNOR Gate
-![XNOR](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/XNOR.PNG)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/1b4ab5db-c9f2-49e7-a1a2-beb917b83df4)
 
 The XNOR gate, a logical combination of an XOR gate followed by a NOT gate (inverter), serves to process two input signals and yield an output signal that assumes a high state (1) exclusively when the inputs are identical (both high or both low). Conversely, if the inputs are dissimilar, the output assumes a low state (0). The practical realization of this functionality involved the adoption of a chip sourced from the company Nexperia. This was selected for its ability to fulfill the necessary criteria concerning current and voltage requirements, as well as the chip’s ability to meet the criteria for current and voltage requirements, as well as its compact size and cost-effectiveness.
 
@@ -276,7 +276,7 @@ A flip-flop is a more advanced digital storage element that can also hold one bi
 There is a .1u bypass capacitor on each VCC pin to eliminate voltage spikes for each flip flop. 
 
 #### D Flip Flop
-![D flip flop](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/D%20flip%20flop.PNG)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/11b35e56-6467-41bf-936d-cd9b7f2c31b7)
 
 The D flip-flop has a data input (D), a clock input (usually called CLK or CP), and an output (Q). On the rising (or falling) edge of the clock signal, the D flip-flop stores the value present at the data input. The stored value is then available at the output (Q). D flip-flops are widely used for sequential circuits and in synchronous systems.
 
@@ -292,7 +292,7 @@ Truth Table:
 | 1 | 1 | 1 |
 
 #### JK Flip Flop
-![JK flip flop](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/JK%20flip%20flop.PNG)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/0d8c3958-39d0-4839-8774-688f8fe7f242)
 
 The JK flip-flop has two data inputs: J and K, along with a clock input and an output. The behavior of the JK flip-flop is similar to the D flip-flop, but it has the additional feature of allowing the toggling of the output (Q) when both J and K inputs are active simultaneously.
 
@@ -314,7 +314,7 @@ Truth Table:
 | 1 | 1 | 1 | 0 |
 
 #### T Flip Flop
-![T flip flop](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/T%20flip%20flop.PNG)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/a534568d-8de1-4699-88bf-dc92bf8c4cb0)D
 
 The T flip-flop has a single input (T) and a clock input (usually called CLK or CP), along with an output (Q). On each rising (or falling) edge of the clock signal, the T flip-flop toggles its output (Q) based on the value at the T input.
 
@@ -330,7 +330,7 @@ Truth Table:
 | 1 | 1 | 0 |
 
 #### SR Latch
-![SR latch](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/SR%20latch.PNG)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/a8ae56bd-a585-451e-9971-9d5f49ecfd3a)
 
 The SR latch has two inputs: Set (S) and Reset (R). When the Set input is asserted (usually logic high), the latch stores the value '1'. Conversely, when the Reset input is asserted (usually logic high), the latch stores the value '0'. If both inputs are active simultaneously, the behavior is unpredictable, and this condition should be avoided.
 
@@ -351,7 +351,7 @@ Truth Table:
 
 ### Adjustable Clock Generator
 ***
-![Clock](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/Clock.PNG)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/174a7156-1697-4eab-aa45-f8567eb84b13)
 
 It was necessary to add a timer to produce a clock signal that’s used by the flip flops. The timer circuit is mostly taken from its datasheet (the circuit for A-stable operation). The component values were derived from equations found on the datasheet. We chose RA to be 1kΩ and C to be 1u. That leaves RB as the value to change to affect the frequency of the clock. 
 
