@@ -56,7 +56,7 @@ This is a quick-turn promotional PCB made as an intern project for Gentex Corpor
     - XNOR 
 * The design shall electrically demonstrate each logic gate. 
 * The design shall include a silk screen that captures all of the logic gate truth tables. 
-* The design shall include 2 inputs for each logic gate 
+* The design shall include 2 inputs for each logic gate. 
 #### Flip Flops
 * The design shall implement a minimum of one (1) flip-flop. 
 * The design shall electrically demonstrate all implemented flip-flops. 
@@ -75,10 +75,10 @@ This is a quick-turn promotional PCB made as an intern project for Gentex Corpor
 ***
 According to the project requirements, the board had to operate at 3V. When choosing input power, that left us with a couple options. Either we could use power from a USB input, or we could use a coin cell battery. Each had their advantages, but we decided on using USB power only. Although the coin cell battery allows for the board to be portable, it didn’t have enough capacity or current sourcing capabilities to be worth the addition.
 
-We did a power analysis on our design to determine the max current that would theoretically be drawn. With 17 LEDs pulling 5-10mA, a max of 8 segments of the 16 digit display being on at 10mA, and the linear regulator at 45mA, our max current draw was around 200-300mA.
+We did a power analysis on our design to determine the max current that would theoretically be drawn. With 17 LEDs pulling 5-10mA, a max of 8 segments of the 16-digit display being on at 10mA, and the linear regulator at 45mA, our max current draw was around 200-300mA.
 
 #### USB-C Connector
-![USB C](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/USB%20C.PNG)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/fac413d8-90ed-4475-9481-2f84083173c6)
 
 This USB-C connector is power only, which means it has fewer pins than a standard USB-C jack. This makes the pads bigger and easier to solder onto. The pins that are included are 2 VBUS, 2 GND, and 2 CC pins. The CC pins are used to regulate the current draw from the power source. In order to activate the power source, we have to add a 5.1k resistor to each CC pin. The USB-C should be able to supply 5V at up to 500mA, which should be enough for all functions on the board.
 
