@@ -88,8 +88,8 @@ This is a quick-turn promotional PCB made as an intern project for Gentex Corpor
 * The design shall implement the designer's college on the silk screen layer. 
 #### Dimensions
 * The design shall be implemented on a 3”x5” PCB. 
-## Detailed Schematic Info
-[Logic-PCB-Schematic.pdf](https://github.com/vandjac/Logic-PCB/files/12321933/Logic-PCB-Schematic.pdf)
+## [Detailed Schematic Info](https://github.com/vandjac/Logic-PCB/files/12321933/Logic-PCB-Schematic.pdf)
+
 ***
 ### Input Power
 ***
