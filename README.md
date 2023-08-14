@@ -372,7 +372,7 @@ Finally, an LED is placed on the clock output so the frequency can be visualized
 The state machine is the most complex circuit on this board. It is intended to display the use of flip flops to switch between different states. The state machine being implemented here is a Moore state machine, which means its next state is only determined by its current state.
 
 #### Synchronous 3-Bit 0-5 Counter
-![Counter](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/Counter.PNG)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/b1c76cd2-5208-4575-bece-abd172360f79)
 ![Sim](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/CounterSim.PNG)
 
 To build a counter, first you need to create a state transition table. This table includes the current state, the corresponding next state, and whether that bit needs to toggle or not. 
@@ -384,7 +384,7 @@ From the Karnaugh maps we got simplified expressions for each toggle bit, which 
 The chips being used all have decoupling capacitors, and the input and output of each T flip flop are visualized using LEDs.
 
 #### Multiplexers and 16 Segment Display
-![Muxes](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/Muxes.PNG)
+![image](https://github.com/vandjac/Logic-PCB/assets/112498063/da5f7f6b-4345-4ba2-b87a-13a45edd3354)
 
 The output of the counter will need to be translated into letters in the word “GENTEX”. To do so, we used multiplexers. These muxes take the counter as their select bits, and then each of the inputs are tied to either 3V or GND, depending on whether a segment needs to be turned on or not.
 
