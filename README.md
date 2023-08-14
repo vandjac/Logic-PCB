@@ -351,7 +351,8 @@ The state machine is the most complex circuit on this board. It is intended to d
 
 #### Synchronous 3-Bit 0-5 Counter
 ![image](https://github.com/vandjac/Logic-PCB/assets/112498063/b1c76cd2-5208-4575-bece-abd172360f79)
-![Sim](https://github.com/vandjac/Logic-PCB/blob/main/Screenshots/CounterSim.PNG)
+![Sim](https://github.com/vandjac/Logic-PCB/assets/32146550/2f60fed3-4a9d-49d5-a8c6-77cf9f5cd16d)
+
 
 To build a counter, first you need to create a state transition table. This table includes the current state, the corresponding next state, and whether that bit needs to toggle or not. 
 
