@@ -34,7 +34,7 @@
    - [Synchronous 3-Bit 0-5 Counter](#synchronous-3-bit-0-5-counter)
    - [Multiplexers and 16-Segment Display](#multiplexers-and-16-segment-display)
 5. [KiCAD](#kicad)
-   - [Schematic](#schematic)
+   - [Schematic Design](#schematic-design)
    - [PCB Layout](#pcb-layout)
 6. [Possible Improvements](#possible-improvements)
 7. [Acknowledgements](#acknowledgements)
@@ -393,7 +393,7 @@ The outputs of each mux are capable of sourcing at least 10mA of current. A curr
 
 ## KiCAD
 ***
-#### [Schematics](https://github.com/vandjac/Logic-PCB/files/12321933/Logic-PCB-Schematic.pdf)
+#### [Schematic Design](https://github.com/vandjac/Logic-PCB/files/12321933/Logic-PCB-Schematic.pdf)
 
 When designing the schematics to the circuits on the PCB, an important step was to find the components needed as well as assigning the footprints and values to them. This involved researching for parts and then finding the selected part online and importing it to KiCAD. This process was streamlined by using a tool called Samacsys KiCAD Libraries. Using this tool, it was possible to search the part needed, see if it had a footprint, datasheet, etc., and import it to the KiCAD library all with a couple clicks. There was only one footprint that was not found, the power USB-C, and so a handmade footprint was made using KiCAD based on the datasheet of the component. Boxes were also drawn around circuits that were in some way related as to clarify sections of the board because the point of the board is to explain how things work.
 
