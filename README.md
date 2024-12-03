@@ -89,9 +89,9 @@ The chosen linear regulator can convert 5V to 3.3V with a max output current of 
 
 Rthja×voltage drop×current draw
 
-With the SOT-223 package, the temperature comes out to 87*1.7*.4=59.16°C
+With the SOT-223 package, the temperature comes out to (87)(1.7)(0.4)=59.16°C
 
-With the DPAK package, the temperature comes out to 72.5*1.7*.4=49.3°C
+With the DPAK package, the temperature comes out to (72.5)(1.7)(0.4)=49.3°C
 
 The industry standard is that anything over 60°C is too hot to touch, so the DPAK package is more appropriate for this case. This package is larger than the SOT-223.
 
